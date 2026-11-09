@@ -329,6 +329,8 @@ The guide loads the four CSVs, explains the types, lists no required relationshi
 
 ## Static web dashboard (Vercel)
 
+**Live:** <https://transaction-anomaly-analyzer.vercel.app>
+
 I also built a small read-only web dashboard in `web/`. It loads the same four CSVs from `web/data/` and shows headline findings, six charts, the validation tables, and a sortable, paginated review table with filters and a filtered CSV download. It is separate from the Power BI guide. It is not a substitute for checking the Power BI file.
 
 I checked it locally in a browser: all six charts render, the risk/location/type/text filters work, sorting and pagination work, and the CSV download contains the 705 flagged rows with their rule reasons.
