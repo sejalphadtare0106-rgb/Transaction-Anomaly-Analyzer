@@ -1,0 +1,706 @@
+Transaction_ID,Customer_ID,Amount,Transaction_Time,Location,Transaction_Type,Merchant_Category,Status,Date,Hour,Day_Of_Week,Amount_Band,Customer_Median_Amount,Risk_Score,Risk_Level,Is_Flagged,Flag_Reasons,Flag_Count,Flag_High_Amount,Flag_High_Frequency,Flag_Location,Flag_Timing,Flag_Failures
+TXN002089,CUST148,5238.99,2026-08-20 10:32:55,Delhi,Withdrawal,ATM,Failed,2026-08-20,10,Thursday,1k-10k,1646.4,70,High,1,Amount is 3.2x this customer's usual; 5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,3,1,1,0,0,1
+TXN002091,CUST148,6841.78,2026-08-20 10:39:21,Delhi,Withdrawal,ATM,Failed,2026-08-20,10,Thursday,1k-10k,1646.4,70,High,1,Amount is 4.2x this customer's usual; 5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,3,1,1,0,0,1
+TXN002093,CUST148,6275.41,2026-08-20 10:42:04,Delhi,Payment,Dining,Failed,2026-08-20,10,Thursday,1k-10k,1646.4,70,High,1,Amount is 3.8x this customer's usual; 5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,3,1,1,0,0,1
+TXN002563,CUST081,24674.78,2026-08-24 02:36:47,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-24,2,Monday,10k-50k,5435.18,70,High,1,Amount is 4.5x this customer's usual; Unusual city: Ahmedabad; Transaction between 12:00 AM and 4:59 AM,3,1,0,1,1,0
+TXN002867,CUST056,69003.59,2026-08-26 17:31:38,Ahmedabad,Transfer,P2P Transfer,Failed,2026-08-26,17,Wednesday,50k+,5440.26,70,High,1,Amount is 12.7x this customer's usual; 5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,3,1,1,0,0,1
+TXN002870,CUST056,35103.98,2026-08-26 17:32:46,Ahmedabad,Transfer,P2P Transfer,Failed,2026-08-26,17,Wednesday,10k-50k,5440.26,70,High,1,Amount is 6.5x this customer's usual; 5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,3,1,1,0,0,1
+TXN002872,CUST056,62095.99,2026-08-26 17:34:32,Ahmedabad,Transfer,P2P Transfer,Failed,2026-08-26,17,Wednesday,50k+,5440.26,70,High,1,Amount is 11.4x this customer's usual; 5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,3,1,1,0,0,1
+TXN002873,CUST056,60379.41,2026-08-26 17:37:20,Ahmedabad,Transfer,P2P Transfer,Failed,2026-08-26,17,Wednesday,50k+,5440.26,70,High,1,Amount is 11.1x this customer's usual; 5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,3,1,1,0,0,1
+TXN002877,CUST056,64339.71,2026-08-26 17:47:37,Ahmedabad,Transfer,P2P Transfer,Failed,2026-08-26,17,Wednesday,50k+,5440.26,70,High,1,Amount is 11.8x this customer's usual; 5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,3,1,1,0,0,1
+TXN002878,CUST056,56731.77,2026-08-26 17:50:41,Ahmedabad,Transfer,P2P Transfer,Failed,2026-08-26,17,Wednesday,50k+,5440.26,70,High,1,Amount is 10.4x this customer's usual; 5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,3,1,1,0,0,1
+TXN001467,CUST238,20285.61,2026-08-14 18:19:44,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-14,18,Friday,10k-50k,2368.8,55,Medium,1,Amount is 8.6x this customer's usual; Unusual city: Ahmedabad,2,1,0,1,0,0
+TXN001697,CUST020,20696.43,2026-08-16 18:40:48,Bengaluru,Payment,Travel,Success,2026-08-16,18,Sunday,10k-50k,1316.47,55,Medium,1,Amount is 15.7x this customer's usual; Unusual city: Bengaluru,2,1,0,1,0,0
+TXN001724,CUST139,10999.15,2026-08-16 23:23:41,Ahmedabad,Payment,Online Shopping,Success,2026-08-16,23,Sunday,10k-50k,2117.58,55,Medium,1,Amount is 5.2x this customer's usual; Unusual city: Ahmedabad,2,1,0,1,0,0
+TXN002144,CUST292,12553.47,2026-08-20 16:45:02,Hyderabad,Withdrawal,ATM,Success,2026-08-20,16,Thursday,10k-50k,2202.98,55,Medium,1,Amount is 5.7x this customer's usual; Unusual city: Hyderabad,2,1,0,1,0,0
+TXN003422,CUST283,8565.34,2026-08-31 14:23:43,Kolkata,Transfer,P2P Transfer,Success,2026-08-31,14,Monday,1k-10k,1750.95,55,Medium,1,Amount is 4.9x this customer's usual; Unusual city: Kolkata,2,1,0,1,0,0
+TXN003479,CUST135,95336.93,2026-08-31 18:57:15,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-31,18,Monday,50k+,6640.56,55,Medium,1,Amount is 14.4x this customer's usual; Unusual city: Ahmedabad,2,1,0,1,0,0
+TXN005652,CUST127,15734.62,2026-09-20 18:52:35,Ahmedabad,Transfer,P2P Transfer,Success,2026-09-20,18,Sunday,10k-50k,4532.54,55,Medium,1,Amount is 3.5x this customer's usual; Unusual city: Ahmedabad,2,1,0,1,0,0
+TXN008912,CUST298,11490.33,2026-10-20 11:32:14,Hyderabad,Payment,Entertainment,Success,2026-10-20,11,Tuesday,10k-50k,859.68,55,Medium,1,Amount is 13.4x this customer's usual; Unusual city: Hyderabad,2,1,0,1,0,0
+TXN009042,CUST262,11740.79,2026-10-21 16:02:46,Delhi,Withdrawal,ATM,Success,2026-10-21,16,Wednesday,10k-50k,3210.33,55,Medium,1,Amount is 3.7x this customer's usual; Unusual city: Delhi,2,1,0,1,0,0
+TXN009743,CUST114,27393.81,2026-10-27 17:54:51,Mumbai,Withdrawal,ATM,Success,2026-10-27,17,Tuesday,10k-50k,6043.18,55,Medium,1,Amount is 4.5x this customer's usual; Unusual city: Mumbai,2,1,0,1,0,0
+TXN000015,CUST160,32159.38,2026-08-01 11:19:46,Delhi,Withdrawal,ATM,Success,2026-08-01,11,Saturday,10k-50k,9899.2,50,Medium,1,Amount is 3.2x this customer's usual; 5+ transactions within 60 minutes,2,1,1,0,0,0
+TXN001955,CUST269,20855.02,2026-08-18 22:10:03,Mumbai,Transfer,P2P Transfer,Success,2026-08-18,22,Tuesday,10k-50k,3441.49,50,Medium,1,Amount is 6.1x this customer's usual; 5+ transactions within 60 minutes,2,1,1,0,0,0
+TXN008790,CUST038,18668.27,2026-10-19 10:49:57,Hyderabad,Withdrawal,ATM,Success,2026-10-19,10,Monday,10k-50k,5680.6,50,Medium,1,Amount is 3.3x this customer's usual; 5+ transactions within 60 minutes,2,1,1,0,0,0
+TXN009440,CUST017,12739.56,2026-10-25 09:42:30,Kolkata,Payment,Online Shopping,Success,2026-10-25,9,Sunday,10k-50k,3805.67,50,Medium,1,Amount is 3.3x this customer's usual; 5+ transactions within 60 minutes,2,1,1,0,0,0
+TXN000836,CUST260,12009.3,2026-08-09 02:48:13,Pune,Transfer,P2P Transfer,Success,2026-08-09,2,Sunday,10k-50k,2556.37,45,Medium,1,Amount is 4.7x this customer's usual; Transaction between 12:00 AM and 4:59 AM,2,1,0,0,1,0
+TXN003021,CUST204,51801.67,2026-08-28 02:48:09,Chennai,Transfer,P2P Transfer,Success,2026-08-28,2,Friday,50k+,6478.92,45,Medium,1,Amount is 8.0x this customer's usual; Transaction between 12:00 AM and 4:59 AM,2,1,0,0,1,0
+TXN003131,CUST014,109377.52,2026-08-29 00:55:02,Bengaluru,Withdrawal,ATM,Success,2026-08-29,0,Saturday,50k+,8716.83,45,Medium,1,Amount is 12.5x this customer's usual; Transaction between 12:00 AM and 4:59 AM,2,1,0,0,1,0
+TXN005574,CUST192,103042.86,2026-09-20 00:15:59,Mumbai,Payment,Dining,Success,2026-09-20,0,Sunday,50k+,9903.99,45,Medium,1,Amount is 10.4x this customer's usual; Transaction between 12:00 AM and 4:59 AM,2,1,0,0,1,0
+TXN006440,CUST028,11456.29,2026-09-28 02:00:33,Delhi,Payment,Online Shopping,Success,2026-09-28,2,Monday,10k-50k,1618.58,45,Medium,1,Amount is 7.1x this customer's usual; Transaction between 12:00 AM and 4:59 AM,2,1,0,0,1,0
+TXN007077,CUST106,93084.09,2026-10-04 00:39:24,Delhi,Payment,Healthcare,Success,2026-10-04,0,Sunday,50k+,9876.06,45,Medium,1,Amount is 9.4x this customer's usual; Transaction between 12:00 AM and 4:59 AM,2,1,0,0,1,0
+TXN007874,CUST236,48995.57,2026-10-11 03:03:33,Delhi,Transfer,P2P Transfer,Success,2026-10-11,3,Sunday,10k-50k,6140.38,45,Medium,1,Amount is 8.0x this customer's usual; Transaction between 12:00 AM and 4:59 AM,2,1,0,0,1,0
+TXN009204,CUST046,8868.5,2026-10-23 00:14:55,Mumbai,Transfer,P2P Transfer,Success,2026-10-23,0,Friday,1k-10k,1220.81,45,Medium,1,Amount is 7.3x this customer's usual; Transaction between 12:00 AM and 4:59 AM,2,1,0,0,1,0
+TXN009898,CUST003,7427.56,2026-10-29 02:31:23,Mumbai,Transfer,P2P Transfer,Success,2026-10-29,2,Thursday,1k-10k,674.96,45,Medium,1,Amount is 11.0x this customer's usual; Transaction between 12:00 AM and 4:59 AM,2,1,0,0,1,0
+TXN000301,CUST166,1395.88,2026-08-03 21:57:23,Kolkata,Payment,Dining,Failed,2026-08-03,21,Monday,1k-10k,2752.2,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN000302,CUST166,2978.64,2026-08-03 21:58:40,Kolkata,Transfer,P2P Transfer,Failed,2026-08-03,21,Monday,1k-10k,2752.2,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN000303,CUST166,4772.6,2026-08-03 22:04:20,Kolkata,Transfer,P2P Transfer,Failed,2026-08-03,22,Monday,1k-10k,2752.2,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN000304,CUST166,1986.07,2026-08-03 22:04:33,Kolkata,Payment,Fuel,Failed,2026-08-03,22,Monday,1k-10k,2752.2,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN000305,CUST166,3985.8,2026-08-03 22:08:04,Kolkata,Payment,Online Shopping,Failed,2026-08-03,22,Monday,1k-10k,2752.2,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN000306,CUST166,3243.42,2026-08-03 22:09:31,Kolkata,Withdrawal,ATM,Failed,2026-08-03,22,Monday,1k-10k,2752.2,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN000430,CUST032,654.72,2026-08-05 14:11:15,Bengaluru,Payment,Travel,Failed,2026-08-05,14,Wednesday,Under 1k,598.47,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN000431,CUST032,592.84,2026-08-05 14:11:53,Bengaluru,Payment,Online Shopping,Failed,2026-08-05,14,Wednesday,Under 1k,598.47,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN000434,CUST032,233.86,2026-08-05 14:13:07,Bengaluru,Payment,Dining,Failed,2026-08-05,14,Wednesday,Under 1k,598.47,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN000435,CUST032,366.05,2026-08-05 14:14:21,Bengaluru,Payment,Dining,Failed,2026-08-05,14,Wednesday,Under 1k,598.47,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN000437,CUST032,768.74,2026-08-05 14:19:24,Bengaluru,Payment,Dining,Failed,2026-08-05,14,Wednesday,Under 1k,598.47,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN000440,CUST032,446.05,2026-08-05 14:29:07,Bengaluru,Withdrawal,ATM,Failed,2026-08-05,14,Wednesday,Under 1k,598.47,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN000614,CUST001,898.52,2026-08-07 00:56:56,Chennai,Withdrawal,ATM,Success,2026-08-07,0,Friday,Under 1k,529.55,40,Medium,1,Unusual city: Chennai; Transaction between 12:00 AM and 4:59 AM,2,0,0,1,1,0
+TXN001816,CUST212,1476.6,2026-08-17 18:46:20,Pune,Payment,Online Shopping,Failed,2026-08-17,18,Monday,1k-10k,1847.43,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN001817,CUST212,531.52,2026-08-17 18:48:43,Pune,Payment,Travel,Failed,2026-08-17,18,Monday,Under 1k,1847.43,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN001819,CUST212,419.6,2026-08-17 18:54:14,Pune,Payment,Travel,Failed,2026-08-17,18,Monday,Under 1k,1847.43,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN001820,CUST212,2345.86,2026-08-17 18:55:50,Pune,Payment,Dining,Failed,2026-08-17,18,Monday,1k-10k,1847.43,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN001821,CUST212,997.3,2026-08-17 18:57:15,Pune,Payment,Online Shopping,Failed,2026-08-17,18,Monday,Under 1k,1847.43,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002090,CUST148,1717.41,2026-08-20 10:36:08,Delhi,Payment,Online Shopping,Failed,2026-08-20,10,Thursday,1k-10k,1646.4,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002092,CUST148,1040.11,2026-08-20 10:40:06,Delhi,Transfer,P2P Transfer,Failed,2026-08-20,10,Thursday,1k-10k,1646.4,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002192,CUST047,1981.1,2026-08-20 21:07:57,Pune,Payment,Utilities,Failed,2026-08-20,21,Thursday,1k-10k,1335.16,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002193,CUST047,2702.84,2026-08-20 21:08:17,Pune,Payment,Healthcare,Failed,2026-08-20,21,Thursday,1k-10k,1335.16,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002195,CUST047,1036.76,2026-08-20 21:21:21,Pune,Transfer,P2P Transfer,Failed,2026-08-20,21,Thursday,1k-10k,1335.16,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002196,CUST047,837.37,2026-08-20 21:24:19,Pune,Transfer,P2P Transfer,Failed,2026-08-20,21,Thursday,Under 1k,1335.16,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002197,CUST047,1285.49,2026-08-20 21:24:25,Pune,Transfer,P2P Transfer,Failed,2026-08-20,21,Thursday,1k-10k,1335.16,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002649,CUST074,9494.95,2026-08-24 18:21:49,Mumbai,Transfer,P2P Transfer,Failed,2026-08-24,18,Monday,1k-10k,5752.3,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002651,CUST074,5050.59,2026-08-24 18:23:04,Mumbai,Transfer,P2P Transfer,Failed,2026-08-24,18,Monday,1k-10k,5752.3,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002652,CUST074,6080.08,2026-08-24 18:23:29,Mumbai,Transfer,P2P Transfer,Failed,2026-08-24,18,Monday,1k-10k,5752.3,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002654,CUST074,2783.82,2026-08-24 18:30:26,Mumbai,Payment,Healthcare,Failed,2026-08-24,18,Monday,1k-10k,5752.3,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002813,CUST042,188.12,2026-08-26 11:55:37,Mumbai,Payment,Travel,Failed,2026-08-26,11,Wednesday,Under 1k,495.42,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002814,CUST042,292.1,2026-08-26 11:57:27,Mumbai,Transfer,P2P Transfer,Failed,2026-08-26,11,Wednesday,Under 1k,495.42,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002816,CUST042,437.06,2026-08-26 11:59:34,Mumbai,Transfer,P2P Transfer,Failed,2026-08-26,11,Wednesday,Under 1k,495.42,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002817,CUST042,937.4,2026-08-26 12:06:23,Mumbai,Withdrawal,ATM,Failed,2026-08-26,12,Wednesday,Under 1k,495.42,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002818,CUST042,199.09,2026-08-26 12:12:20,Mumbai,Transfer,P2P Transfer,Failed,2026-08-26,12,Wednesday,Under 1k,495.42,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN002819,CUST042,696.59,2026-08-26 12:12:28,Mumbai,Transfer,P2P Transfer,Failed,2026-08-26,12,Wednesday,Under 1k,495.42,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN003376,CUST199,1019.96,2026-08-30 20:44:11,Ahmedabad,Payment,Utilities,Failed,2026-08-30,20,Sunday,1k-10k,720.56,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN003377,CUST199,931.31,2026-08-30 20:46:47,Ahmedabad,Payment,Utilities,Failed,2026-08-30,20,Sunday,Under 1k,720.56,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN003379,CUST199,1667.77,2026-08-30 20:47:36,Ahmedabad,Payment,Entertainment,Failed,2026-08-30,20,Sunday,1k-10k,720.56,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN003380,CUST199,437.03,2026-08-30 21:00:09,Ahmedabad,Withdrawal,ATM,Failed,2026-08-30,21,Sunday,Under 1k,720.56,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN003381,CUST199,631.53,2026-08-30 21:00:32,Ahmedabad,Payment,Groceries,Failed,2026-08-30,21,Sunday,Under 1k,720.56,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN003382,CUST199,2554.0,2026-08-30 21:01:56,Ahmedabad,Payment,Entertainment,Failed,2026-08-30,21,Sunday,1k-10k,720.56,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN004286,CUST094,516.27,2026-09-08 01:33:13,Pune,Transfer,P2P Transfer,Success,2026-09-08,1,Tuesday,Under 1k,1634.99,40,Medium,1,Unusual city: Pune; Transaction between 12:00 AM and 4:59 AM,2,0,0,1,1,0
+TXN005685,CUST184,187.88,2026-09-21 04:04:29,Delhi,Transfer,P2P Transfer,Success,2026-09-21,4,Monday,Under 1k,470.11,40,Medium,1,Unusual city: Delhi; Transaction between 12:00 AM and 4:59 AM,2,0,0,1,1,0
+TXN005736,CUST286,13230.65,2026-09-21 16:35:44,Bengaluru,Withdrawal,ATM,Failed,2026-09-21,16,Monday,10k-50k,4753.51,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN005737,CUST286,4656.36,2026-09-21 16:39:40,Bengaluru,Transfer,P2P Transfer,Failed,2026-09-21,16,Monday,1k-10k,4753.51,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN005738,CUST286,3850.79,2026-09-21 16:40:24,Bengaluru,Payment,Groceries,Failed,2026-09-21,16,Monday,1k-10k,4753.51,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN005739,CUST286,11424.44,2026-09-21 16:44:39,Bengaluru,Payment,Travel,Failed,2026-09-21,16,Monday,10k-50k,4753.51,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN005741,CUST286,13733.07,2026-09-21 16:49:50,Bengaluru,Withdrawal,ATM,Failed,2026-09-21,16,Monday,10k-50k,4753.51,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN005742,CUST286,13927.79,2026-09-21 16:49:58,Bengaluru,Payment,Dining,Failed,2026-09-21,16,Monday,10k-50k,4753.51,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN006235,CUST282,1136.5,2026-09-26 03:04:58,Hyderabad,Transfer,Unknown,Success,2026-09-26,3,Saturday,1k-10k,1118.74,40,Medium,1,Unusual city: Hyderabad; Transaction between 12:00 AM and 4:59 AM,2,0,0,1,1,0
+TXN006282,CUST167,1573.54,2026-09-26 17:39:19,Mumbai,Transfer,P2P Transfer,Failed,2026-09-26,17,Saturday,1k-10k,2295.66,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN006283,CUST167,2328.16,2026-09-26 17:42:19,Mumbai,Payment,Online Shopping,Failed,2026-09-26,17,Saturday,1k-10k,2295.66,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN006284,CUST167,2000.35,2026-09-26 17:51:13,Mumbai,Transfer,P2P Transfer,Failed,2026-09-26,17,Saturday,1k-10k,2295.66,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN006286,CUST167,3255.1,2026-09-26 17:51:38,Mumbai,Payment,Online Shopping,Failed,2026-09-26,17,Saturday,1k-10k,2295.66,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN006287,CUST167,1964.25,2026-09-26 17:54:27,Mumbai,Transfer,P2P Transfer,Failed,2026-09-26,17,Saturday,1k-10k,2295.66,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN006289,CUST167,1690.38,2026-09-26 17:57:51,Mumbai,Transfer,P2P Transfer,Failed,2026-09-26,17,Saturday,1k-10k,2295.66,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN007209,CUST269,3705.22,2026-10-05 14:28:10,Mumbai,Transfer,P2P Transfer,Failed,2026-10-05,14,Monday,1k-10k,3441.49,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN007210,CUST269,2244.53,2026-10-05 14:30:36,Mumbai,Transfer,P2P Transfer,Failed,2026-10-05,14,Monday,1k-10k,3441.49,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN007211,CUST269,5217.67,2026-10-05 14:35:17,Mumbai,Transfer,P2P Transfer,Failed,2026-10-05,14,Monday,1k-10k,3441.49,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN007213,CUST269,1361.2,2026-10-05 14:37:31,Mumbai,Payment,Dining,Failed,2026-10-05,14,Monday,1k-10k,3441.49,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN007214,CUST269,1571.66,2026-10-05 14:37:44,Mumbai,Payment,Dining,Failed,2026-10-05,14,Monday,1k-10k,3441.49,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN007215,CUST269,1383.96,2026-10-05 14:45:21,Mumbai,Transfer,P2P Transfer,Failed,2026-10-05,14,Monday,1k-10k,3441.49,40,Medium,1,5+ transactions within 60 minutes; 3+ failed attempts within 30 minutes,2,0,1,0,0,1
+TXN009552,CUST049,4939.19,2026-10-26 02:10:37,Hyderabad,Payment,Utilities,Success,2026-10-26,2,Monday,1k-10k,2290.68,40,Medium,1,Unusual city: Hyderabad; Transaction between 12:00 AM and 4:59 AM,2,0,0,1,1,0
+TXN009896,CUST038,4381.19,2026-10-29 00:53:08,Delhi,Payment,Fuel,Success,2026-10-29,0,Thursday,1k-10k,5680.6,40,Medium,1,Unusual city: Delhi; Transaction between 12:00 AM and 4:59 AM,2,0,0,1,1,0
+TXN000025,CUST133,21063.33,2026-08-01 12:45:26,Pune,Payment,Entertainment,Success,2026-08-01,12,Saturday,10k-50k,5067.21,30,Medium,1,Amount is 4.2x this customer's usual,1,1,0,0,0,0
+TXN000028,CUST107,17008.71,2026-08-01 13:02:07,Bengaluru,Transfer,P2P Transfer,Success,2026-08-01,13,Saturday,10k-50k,2544.35,30,Medium,1,Amount is 6.7x this customer's usual,1,1,0,0,0,0
+TXN000034,CUST141,10101.13,2026-08-01 13:38:42,Delhi,Transfer,P2P Transfer,Success,2026-08-01,13,Saturday,10k-50k,3127.52,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN000105,CUST172,21436.06,2026-08-01 20:55:55,Hyderabad,Transfer,P2P Transfer,Success,2026-08-01,20,Saturday,10k-50k,3491.02,30,Medium,1,Amount is 6.1x this customer's usual,1,1,0,0,0,0
+TXN000127,CUST014,28818.51,2026-08-02 13:44:48,Bengaluru,Transfer,P2P Transfer,Success,2026-08-02,13,Sunday,10k-50k,8716.83,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN000135,CUST278,14052.63,2026-08-02 15:18:18,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-02,15,Sunday,10k-50k,3693.24,30,Medium,1,Amount is 3.8x this customer's usual,1,1,0,0,0,0
+TXN000180,CUST273,5440.64,2026-08-02 20:00:10,Kolkata,Payment,Travel,Success,2026-08-02,20,Sunday,1k-10k,802.46,30,Medium,1,Amount is 6.8x this customer's usual,1,1,0,0,0,0
+TXN000222,CUST044,7163.42,2026-08-03 13:44:57,Chennai,Payment,Healthcare,Success,2026-08-03,13,Monday,1k-10k,1063.59,30,Medium,1,Amount is 6.7x this customer's usual,1,1,0,0,0,0
+TXN000247,CUST224,13186.94,2026-08-03 15:50:46,Ahmedabad,Withdrawal,ATM,Success,2026-08-03,15,Monday,10k-50k,3981.42,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN000260,CUST133,39157.85,2026-08-03 16:52:04,Pune,Payment,Utilities,Success,2026-08-03,16,Monday,10k-50k,5067.21,30,Medium,1,Amount is 7.7x this customer's usual,1,1,0,0,0,0
+TXN000307,CUST108,20824.43,2026-08-03 22:17:49,Mumbai,Payment,Dining,Success,2026-08-03,22,Monday,10k-50k,6031.04,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN000374,CUST178,8802.15,2026-08-04 18:14:03,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-04,18,Tuesday,1k-10k,2491.01,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN000384,CUST224,16768.23,2026-08-04 19:43:13,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-04,19,Tuesday,10k-50k,3981.42,30,Medium,1,Amount is 4.2x this customer's usual,1,1,0,0,0,0
+TXN000402,CUST194,15566.62,2026-08-05 01:28:42,Hyderabad,Payment,Utilities,Success,2026-08-05,1,Wednesday,10k-50k,1602.71,30,Medium,1,Amount is 9.7x this customer's usual,1,1,0,0,0,0
+TXN000413,CUST292,7141.56,2026-08-05 11:24:59,Chennai,Transfer,P2P Transfer,Success,2026-08-05,11,Wednesday,1k-10k,2202.98,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN000500,CUST192,59889.09,2026-08-05 19:54:06,Mumbai,Payment,Online Shopping,Success,2026-08-05,19,Wednesday,50k+,9903.99,30,Medium,1,Amount is 6.0x this customer's usual,1,1,0,0,0,0
+TXN000506,CUST120,7488.35,2026-08-06 01:55:33,Chennai,Transfer,P2P Transfer,Success,2026-08-06,1,Thursday,1k-10k,1688.61,30,Medium,1,Amount is 4.4x this customer's usual,1,1,0,0,0,0
+TXN000510,CUST190,25850.38,2026-08-06 09:30:05,Pune,Payment,Groceries,Success,2026-08-06,9,Thursday,10k-50k,6675.15,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN000523,CUST069,5556.01,2026-08-06 12:15:11,Mumbai,Withdrawal,ATM,Success,2026-08-06,12,Thursday,1k-10k,1622.36,30,Medium,1,Amount is 3.4x this customer's usual,1,1,0,0,0,0
+TXN000530,CUST244,5547.61,2026-08-06 13:39:50,Kolkata,Payment,Groceries,Success,2026-08-06,13,Thursday,1k-10k,1557.71,30,Medium,1,Amount is 3.6x this customer's usual,1,1,0,0,0,0
+TXN000533,CUST088,5465.92,2026-08-06 13:48:31,Delhi,Withdrawal,ATM,Success,2026-08-06,13,Thursday,1k-10k,1408.48,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN000556,CUST283,8495.83,2026-08-06 16:12:27,Delhi,Transfer,P2P Transfer,Success,2026-08-06,16,Thursday,1k-10k,1750.95,30,Medium,1,Amount is 4.9x this customer's usual,1,1,0,0,0,0
+TXN000566,CUST236,35575.25,2026-08-06 16:36:24,Delhi,Transfer,P2P Transfer,Success,2026-08-06,16,Thursday,10k-50k,6140.38,30,Medium,1,Amount is 5.8x this customer's usual,1,1,0,0,0,0
+TXN000587,CUST152,7545.06,2026-08-06 18:29:20,Chennai,Transfer,P2P Transfer,Success,2026-08-06,18,Thursday,1k-10k,2134.74,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN000601,CUST296,5375.68,2026-08-06 19:52:51,Hyderabad,Transfer,P2P Transfer,Success,2026-08-06,19,Thursday,1k-10k,1692.09,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN000610,CUST170,23011.72,2026-08-06 22:14:25,Hyderabad,Payment,Entertainment,Success,2026-08-06,22,Thursday,10k-50k,4141.85,30,Medium,1,Amount is 5.6x this customer's usual,1,1,0,0,0,0
+TXN000615,CUST194,16004.2,2026-08-07 01:31:06,Hyderabad,Transfer,P2P Transfer,Success,2026-08-07,1,Friday,10k-50k,1602.71,30,Medium,1,Amount is 10.0x this customer's usual,1,1,0,0,0,0
+TXN000622,CUST298,5060.58,2026-08-07 12:25:14,Bengaluru,Payment,Fuel,Success,2026-08-07,12,Friday,1k-10k,859.68,30,Medium,1,Amount is 5.9x this customer's usual,1,1,0,0,0,0
+TXN000625,CUST107,29817.68,2026-08-07 13:02:19,Bengaluru,Withdrawal,ATM,Success,2026-08-07,13,Friday,10k-50k,2544.35,30,Medium,1,Amount is 11.7x this customer's usual,1,1,0,0,0,0
+TXN000627,CUST294,44692.1,2026-08-07 13:04:45,Delhi,Transfer,P2P Transfer,Success,2026-08-07,13,Friday,10k-50k,8827.22,30,Medium,1,Amount is 5.1x this customer's usual,1,1,0,0,0,0
+TXN000642,CUST226,9558.61,2026-08-07 15:29:49,Pune,Transfer,P2P Transfer,Success,2026-08-07,15,Friday,1k-10k,2089.26,30,Medium,1,Amount is 4.6x this customer's usual,1,1,0,0,0,0
+TXN000662,CUST071,5913.74,2026-08-07 17:36:15,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-07,17,Friday,1k-10k,1840.87,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN000665,CUST192,39200.02,2026-08-07 17:51:44,Mumbai,Transfer,P2P Transfer,Success,2026-08-07,17,Friday,10k-50k,9903.99,30,Medium,1,Amount is 4.0x this customer's usual,1,1,0,0,0,0
+TXN000709,CUST254,48724.97,2026-08-07 22:35:42,Kolkata,Payment,Dining,Success,2026-08-07,22,Friday,10k-50k,7148.88,30,Medium,1,Amount is 6.8x this customer's usual,1,1,0,0,0,0
+TXN000729,CUST161,15179.3,2026-08-08 12:28:54,Bengaluru,Transfer,P2P Transfer,Success,2026-08-08,12,Saturday,10k-50k,2783.39,30,Medium,1,Amount is 5.5x this customer's usual,1,1,0,0,0,0
+TXN000777,CUST111,6563.81,2026-08-08 17:02:05,Kolkata,Transfer,P2P Transfer,Success,2026-08-08,17,Saturday,1k-10k,485.13,30,Medium,1,Amount is 13.5x this customer's usual,1,1,0,0,0,0
+TXN000812,CUST160,30292.81,2026-08-08 19:30:00,Delhi,Transfer,P2P Transfer,Success,2026-08-08,19,Saturday,10k-50k,9899.2,30,Medium,1,Amount is 3.1x this customer's usual,1,1,0,0,0,0
+TXN000824,CUST277,21925.35,2026-08-08 21:14:25,Delhi,Withdrawal,ATM,Success,2026-08-08,21,Saturday,10k-50k,5910.68,30,Medium,1,Amount is 3.7x this customer's usual,1,1,0,0,0,0
+TXN000844,CUST185,7086.27,2026-08-09 12:30:10,Hyderabad,Transfer,P2P Transfer,Success,2026-08-09,12,Sunday,1k-10k,2360.18,30,Medium,1,Amount is 3.0x this customer's usual,1,1,0,0,0,0
+TXN000900,CUST157,7646.26,2026-08-09 19:07:10,Hyderabad,Transfer,P2P Transfer,Success,2026-08-09,19,Sunday,1k-10k,1527.86,30,Medium,1,Amount is 5.0x this customer's usual,1,1,0,0,0,0
+TXN001007,CUST041,9957.65,2026-08-10 19:15:38,Ahmedabad,Payment,Dining,Success,2026-08-10,19,Monday,1k-10k,1172.4,30,Medium,1,Amount is 8.5x this customer's usual,1,1,0,0,0,0
+TXN001034,CUST057,22716.18,2026-08-10 23:16:04,Bengaluru,Payment,Online Shopping,Success,2026-08-10,23,Monday,10k-50k,4827.7,30,Medium,1,Amount is 4.7x this customer's usual,1,1,0,0,0,0
+TXN001050,CUST006,5843.85,2026-08-11 10:35:54,Bengaluru,Withdrawal,ATM,Success,2026-08-11,10,Tuesday,1k-10k,598.71,30,Medium,1,Amount is 9.8x this customer's usual,1,1,0,0,0,0
+TXN001056,CUST059,45634.95,2026-08-11 12:07:34,Bengaluru,Payment,Fuel,Success,2026-08-11,12,Tuesday,10k-50k,9847.64,30,Medium,1,Amount is 4.6x this customer's usual,1,1,0,0,0,0
+TXN001140,CUST172,49532.98,2026-08-11 21:24:19,Hyderabad,Payment,Dining,Success,2026-08-11,21,Tuesday,10k-50k,3491.02,30,Medium,1,Amount is 14.2x this customer's usual,1,1,0,0,0,0
+TXN001143,CUST296,5508.5,2026-08-11 21:29:22,Hyderabad,Withdrawal,ATM,Success,2026-08-11,21,Tuesday,1k-10k,1692.09,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN001144,CUST241,8092.6,2026-08-11 21:37:50,Chennai,Transfer,P2P Transfer,Success,2026-08-11,21,Tuesday,1k-10k,2045.02,30,Medium,1,Amount is 4.0x this customer's usual,1,1,0,0,0,0
+TXN001179,CUST295,8147.44,2026-08-12 14:20:18,Kolkata,Transfer,P2P Transfer,Success,2026-08-12,14,Wednesday,1k-10k,1316.02,30,Medium,1,Amount is 6.2x this customer's usual,1,1,0,0,0,0
+TXN001219,CUST094,8364.47,2026-08-12 18:30:51,Delhi,Payment,Online Shopping,Success,2026-08-12,18,Wednesday,1k-10k,1634.99,30,Medium,1,Amount is 5.1x this customer's usual,1,1,0,0,0,0
+TXN001246,CUST243,63466.91,2026-08-12 21:35:56,Bengaluru,Transfer,P2P Transfer,Success,2026-08-12,21,Wednesday,50k+,6623.93,30,Medium,1,Amount is 9.6x this customer's usual,1,1,0,0,0,0
+TXN001254,CUST109,9845.17,2026-08-13 02:37:01,Pune,Transfer,P2P Transfer,Failed,2026-08-13,2,Thursday,1k-10k,2947.94,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN001257,CUST120,5497.5,2026-08-13 03:30:33,Chennai,Payment,Dining,Success,2026-08-13,3,Thursday,1k-10k,1688.61,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN001270,CUST133,16429.17,2026-08-13 13:07:22,Pune,Transfer,P2P Transfer,Success,2026-08-13,13,Thursday,10k-50k,5067.21,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN001289,CUST141,10693.25,2026-08-13 15:22:36,Delhi,Transfer,P2P Transfer,Success,2026-08-13,15,Thursday,10k-50k,3127.52,30,Medium,1,Amount is 3.4x this customer's usual,1,1,0,0,0,0
+TXN001324,CUST101,11461.77,2026-08-13 18:00:58,Bengaluru,Transfer,P2P Transfer,Success,2026-08-13,18,Thursday,10k-50k,3243.99,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN001334,CUST012,27270.11,2026-08-13 18:48:34,Ahmedabad,Payment,Groceries,Success,2026-08-13,18,Thursday,10k-50k,7005.43,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN001356,CUST071,6043.13,2026-08-13 21:48:23,Ahmedabad,Withdrawal,ATM,Success,2026-08-13,21,Thursday,1k-10k,1840.87,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN001358,CUST248,8612.07,2026-08-13 22:59:32,Kolkata,Payment,Dining,Success,2026-08-13,22,Thursday,1k-10k,2259.03,30,Medium,1,Amount is 3.8x this customer's usual,1,1,0,0,0,0
+TXN001361,CUST237,31664.09,2026-08-14 00:31:18,Kolkata,Payment,Online Shopping,Success,2026-08-14,0,Friday,10k-50k,9046.21,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN001363,CUST243,28379.3,2026-08-14 00:57:37,Bengaluru,Withdrawal,ATM,Success,2026-08-14,0,Friday,10k-50k,6623.93,30,Medium,1,Amount is 4.3x this customer's usual,1,1,0,0,0,0
+TXN001413,CUST021,16805.86,2026-08-14 14:44:25,Delhi,Payment,Groceries,Success,2026-08-14,14,Friday,10k-50k,4524.36,30,Medium,1,Amount is 3.7x this customer's usual,1,1,0,0,0,0
+TXN001540,CUST277,91023.93,2026-08-15 14:19:41,Delhi,Withdrawal,ATM,Success,2026-08-15,14,Saturday,50k+,5910.68,30,Medium,1,Amount is 15.4x this customer's usual,1,1,0,0,0,0
+TXN001588,CUST115,24289.52,2026-08-15 18:12:24,Delhi,Transfer,P2P Transfer,Success,2026-08-15,18,Saturday,10k-50k,1762.15,30,Medium,1,Amount is 13.8x this customer's usual,1,1,0,0,0,0
+TXN001590,CUST110,29657.5,2026-08-15 18:16:13,Mumbai,Withdrawal,ATM,Success,2026-08-15,18,Saturday,10k-50k,6081.24,30,Medium,1,Amount is 4.9x this customer's usual,1,1,0,0,0,0
+TXN001637,CUST035,10273.03,2026-08-16 12:43:19,Chennai,Transfer,P2P Transfer,Success,2026-08-16,12,Sunday,10k-50k,1581.46,30,Medium,1,Amount is 6.5x this customer's usual,1,1,0,0,0,0
+TXN001648,CUST291,60619.04,2026-08-16 14:15:58,Bengaluru,Payment,Utilities,Success,2026-08-16,14,Sunday,50k+,7359.18,30,Medium,1,Amount is 8.2x this customer's usual,1,1,0,0,0,0
+TXN001651,CUST017,12072.95,2026-08-16 14:44:20,Kolkata,Payment,Online Shopping,Success,2026-08-16,14,Sunday,10k-50k,3805.67,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN001744,CUST009,14261.07,2026-08-17 13:30:09,Mumbai,Payment,Dining,Success,2026-08-17,13,Monday,10k-50k,4478.17,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN001852,CUST025,7284.56,2026-08-18 01:49:58,Ahmedabad,Payment,Groceries,Success,2026-08-18,1,Tuesday,1k-10k,651.16,30,Medium,1,Amount is 11.2x this customer's usual,1,1,0,0,0,0
+TXN001855,CUST164,9985.86,2026-08-18 03:40:23,Delhi,Payment,Entertainment,Success,2026-08-18,3,Tuesday,1k-10k,1437.53,30,Medium,1,Amount is 6.9x this customer's usual,1,1,0,0,0,0
+TXN001867,CUST295,9560.48,2026-08-18 12:13:32,Kolkata,Withdrawal,ATM,Success,2026-08-18,12,Tuesday,1k-10k,1316.02,30,Medium,1,Amount is 7.3x this customer's usual,1,1,0,0,0,0
+TXN001882,CUST283,6245.66,2026-08-18 14:03:49,Delhi,Withdrawal,ATM,Success,2026-08-18,14,Tuesday,1k-10k,1750.95,30,Medium,1,Amount is 3.6x this customer's usual,1,1,0,0,0,0
+TXN002003,CUST281,26266.44,2026-08-19 14:30:21,Chennai,Transfer,P2P Transfer,Success,2026-08-19,14,Wednesday,10k-50k,8152.38,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN002049,CUST160,53316.3,2026-08-19 18:15:23,Delhi,Transfer,P2P Transfer,Success,2026-08-19,18,Wednesday,50k+,9899.2,30,Medium,1,Amount is 5.4x this customer's usual,1,1,0,0,0,0
+TXN002136,CUST183,6343.96,2026-08-20 16:13:13,Bengaluru,Transfer,P2P Transfer,Success,2026-08-20,16,Thursday,1k-10k,1431.62,30,Medium,1,Amount is 4.4x this customer's usual,1,1,0,0,0,0
+TXN002145,CUST263,8792.71,2026-08-20 16:46:23,Kolkata,Transfer,P2P Transfer,Success,2026-08-20,16,Thursday,1k-10k,2396.56,30,Medium,1,Amount is 3.7x this customer's usual,1,1,0,0,0,0
+TXN002206,CUST209,6875.02,2026-08-20 23:46:55,Kolkata,Withdrawal,ATM,Success,2026-08-20,23,Thursday,1k-10k,822.8,30,Medium,1,Amount is 8.4x this customer's usual,1,1,0,0,0,0
+TXN002210,CUST134,43332.15,2026-08-21 01:10:42,Ahmedabad,Withdrawal,ATM,Success,2026-08-21,1,Friday,10k-50k,5592.55,30,Medium,1,Amount is 7.7x this customer's usual,1,1,0,0,0,0
+TXN002223,CUST021,14878.57,2026-08-21 10:18:07,Delhi,Transfer,P2P Transfer,Success,2026-08-21,10,Friday,10k-50k,4524.36,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN002231,CUST261,88035.18,2026-08-21 12:08:24,Chennai,Payment,Healthcare,Success,2026-08-21,12,Friday,50k+,8754.41,30,Medium,1,Amount is 10.1x this customer's usual,1,1,0,0,0,0
+TXN002247,CUST263,35930.38,2026-08-21 14:08:15,Kolkata,Transfer,P2P Transfer,Success,2026-08-21,14,Friday,10k-50k,2396.56,30,Medium,1,Amount is 15.0x this customer's usual,1,1,0,0,0,0
+TXN002249,CUST286,15688.84,2026-08-21 14:23:08,Bengaluru,Withdrawal,ATM,Success,2026-08-21,14,Friday,10k-50k,4753.51,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN002360,CUST062,47176.46,2026-08-22 14:06:44,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-22,14,Saturday,10k-50k,4105.95,30,Medium,1,Amount is 11.5x this customer's usual,1,1,0,0,0,0
+TXN002386,CUST244,5148.18,2026-08-22 16:26:40,Kolkata,Payment,Groceries,Success,2026-08-22,16,Saturday,1k-10k,1557.71,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN002421,CUST228,11278.43,2026-08-22 20:07:59,Mumbai,Payment,Utilities,Success,2026-08-22,20,Saturday,10k-50k,2031.47,30,Medium,1,Amount is 5.6x this customer's usual,1,1,0,0,0,0
+TXN002438,CUST134,31380.88,2026-08-23 01:46:30,Ahmedabad,Payment,Fuel,Success,2026-08-23,1,Sunday,10k-50k,5592.55,30,Medium,1,Amount is 5.6x this customer's usual,1,1,0,0,0,0
+TXN002562,CUST109,12676.63,2026-08-24 02:34:09,Pune,Payment,Healthcare,Success,2026-08-24,2,Monday,10k-50k,2947.94,30,Medium,1,Amount is 4.3x this customer's usual,1,1,0,0,0,0
+TXN002576,CUST249,21226.07,2026-08-24 12:29:40,Kolkata,Withdrawal,ATM,Success,2026-08-24,12,Monday,10k-50k,4462.72,30,Medium,1,Amount is 4.8x this customer's usual,1,1,0,0,0,0
+TXN002613,CUST017,14500.14,2026-08-24 16:09:57,Kolkata,Transfer,P2P Transfer,Success,2026-08-24,16,Monday,10k-50k,3805.67,30,Medium,1,Amount is 3.8x this customer's usual,1,1,0,0,0,0
+TXN002644,CUST192,40806.55,2026-08-24 18:01:52,Mumbai,Transfer,P2P Transfer,Success,2026-08-24,18,Monday,10k-50k,9903.99,30,Medium,1,Amount is 4.1x this customer's usual,1,1,0,0,0,0
+TXN002704,CUST142,25294.94,2026-08-25 12:58:03,Delhi,Transfer,P2P Transfer,Success,2026-08-25,12,Tuesday,10k-50k,3144.36,30,Medium,1,Amount is 8.0x this customer's usual,1,1,0,0,0,0
+TXN002708,CUST245,8564.01,2026-08-25 13:14:07,Bengaluru,Transfer,P2P Transfer,Success,2026-08-25,13,Tuesday,1k-10k,1666.33,30,Medium,1,Amount is 5.1x this customer's usual,1,1,0,0,0,0
+TXN002769,CUST079,18331.49,2026-08-25 18:51:10,Kolkata,Withdrawal,ATM,Success,2026-08-25,18,Tuesday,10k-50k,6018.55,30,Medium,1,Amount is 3.0x this customer's usual,1,1,0,0,0,0
+TXN002795,CUST283,18848.0,2026-08-25 20:48:27,Delhi,Transfer,P2P Transfer,Success,2026-08-25,20,Tuesday,10k-50k,1750.95,30,Medium,1,Amount is 10.8x this customer's usual,1,1,0,0,0,0
+TXN002853,CUST133,17949.17,2026-08-26 15:54:10,Pune,Payment,Groceries,Success,2026-08-26,15,Wednesday,10k-50k,5067.21,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN002855,CUST125,15771.47,2026-08-26 16:04:34,Chennai,Payment,Entertainment,Success,2026-08-26,16,Wednesday,10k-50k,3249.78,30,Medium,1,Amount is 4.9x this customer's usual,1,1,0,0,0,0
+TXN002861,CUST022,7549.59,2026-08-26 16:57:48,Pune,Payment,Dining,Success,2026-08-26,16,Wednesday,1k-10k,1965.8,30,Medium,1,Amount is 3.8x this customer's usual,1,1,0,0,0,0
+TXN002896,CUST124,6550.97,2026-08-26 19:14:13,Kolkata,Transfer,P2P Transfer,Success,2026-08-26,19,Wednesday,1k-10k,1526.12,30,Medium,1,Amount is 4.3x this customer's usual,1,1,0,0,0,0
+TXN002908,CUST094,8280.23,2026-08-26 20:22:21,Delhi,Payment,Dining,Success,2026-08-26,20,Wednesday,1k-10k,1634.99,30,Medium,1,Amount is 5.1x this customer's usual,1,1,0,0,0,0
+TXN002915,CUST134,87025.48,2026-08-27 04:53:20,Pune,Payment,Healthcare,Success,2026-08-27,4,Thursday,50k+,5592.55,30,Medium,1,Amount is 15.6x this customer's usual,1,1,0,0,0,0
+TXN002937,CUST014,96756.38,2026-08-27 13:27:06,Bengaluru,Transfer,P2P Transfer,Success,2026-08-27,13,Thursday,50k+,8716.83,30,Medium,1,Amount is 11.1x this customer's usual,1,1,0,0,0,0
+TXN002997,CUST216,7757.35,2026-08-27 18:54:58,Kolkata,Transfer,P2P Transfer,Failed,2026-08-27,18,Thursday,1k-10k,1682.95,30,Medium,1,Amount is 4.6x this customer's usual,1,1,0,0,0,0
+TXN003026,CUST035,5785.18,2026-08-28 10:12:27,Delhi,Transfer,P2P Transfer,Success,2026-08-28,10,Friday,1k-10k,1581.46,30,Medium,1,Amount is 3.7x this customer's usual,1,1,0,0,0,0
+TXN003048,CUST159,30385.1,2026-08-28 14:13:46,Bengaluru,Payment,Healthcare,Success,2026-08-28,14,Friday,10k-50k,4328.43,30,Medium,1,Amount is 7.0x this customer's usual,1,1,0,0,0,0
+TXN003180,CUST103,46803.92,2026-08-29 14:49:53,Mumbai,Withdrawal,ATM,Success,2026-08-29,14,Saturday,10k-50k,6028.46,30,Medium,1,Amount is 7.8x this customer's usual,1,1,0,0,0,0
+TXN003202,CUST223,5845.76,2026-08-29 16:29:46,Hyderabad,Payment,Utilities,Success,2026-08-29,16,Saturday,1k-10k,893.22,30,Medium,1,Amount is 6.5x this customer's usual,1,1,0,0,0,0
+TXN003204,CUST140,18963.15,2026-08-29 16:38:05,Kolkata,Payment,Utilities,Success,2026-08-29,16,Saturday,10k-50k,5620.9,30,Medium,1,Amount is 3.4x this customer's usual,1,1,0,0,0,0
+TXN003265,CUST146,5333.97,2026-08-30 00:00:43,Bengaluru,Payment,Dining,Success,2026-08-30,0,Sunday,1k-10k,1524.22,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN003307,CUST226,8254.45,2026-08-30 14:27:05,Pune,Transfer,P2P Transfer,Success,2026-08-30,14,Sunday,1k-10k,2089.26,30,Medium,1,Amount is 4.0x this customer's usual,1,1,0,0,0,0
+TXN003329,CUST099,13685.73,2026-08-30 16:21:12,Ahmedabad,Payment,Travel,Success,2026-08-30,16,Sunday,10k-50k,4528.14,30,Medium,1,Amount is 3.0x this customer's usual,1,1,0,0,0,0
+TXN003360,CUST226,8085.03,2026-08-30 18:37:50,Pune,Transfer,P2P Transfer,Success,2026-08-30,18,Sunday,1k-10k,2089.26,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN003368,CUST254,63320.33,2026-08-30 19:09:25,Kolkata,Transfer,P2P Transfer,Success,2026-08-30,19,Sunday,50k+,7148.88,30,Medium,1,Amount is 8.9x this customer's usual,1,1,0,0,0,0
+TXN003389,CUST131,49114.8,2026-08-31 01:02:56,Bengaluru,Transfer,P2P Transfer,Success,2026-08-31,1,Monday,10k-50k,7170.24,30,Medium,1,Amount is 6.8x this customer's usual,1,1,0,0,0,0
+TXN003411,CUST021,15882.01,2026-08-31 13:22:48,Delhi,Transfer,P2P Transfer,Success,2026-08-31,13,Monday,10k-50k,4524.36,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN003448,CUST071,6110.53,2026-08-31 16:35:27,Ahmedabad,Withdrawal,ATM,Success,2026-08-31,16,Monday,1k-10k,1840.87,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN003472,CUST092,6823.52,2026-08-31 18:22:47,Pune,Transfer,P2P Transfer,Success,2026-08-31,18,Monday,1k-10k,1800.56,30,Medium,1,Amount is 3.8x this customer's usual,1,1,0,0,0,0
+TXN003556,CUST214,5486.12,2026-09-01 15:39:25,Delhi,Transfer,P2P Transfer,Success,2026-09-01,15,Tuesday,1k-10k,802.82,30,Medium,1,Amount is 6.8x this customer's usual,1,1,0,0,0,0
+TXN003603,CUST089,8199.04,2026-09-01 19:45:39,Mumbai,Transfer,P2P Transfer,Success,2026-09-01,19,Tuesday,1k-10k,852.91,30,Medium,1,Amount is 9.6x this customer's usual,1,1,0,0,0,0
+TXN003610,CUST016,29244.65,2026-09-01 20:42:21,Kolkata,Payment,Entertainment,Success,2026-09-01,20,Tuesday,10k-50k,7650.73,30,Medium,1,Amount is 3.8x this customer's usual,1,1,0,0,0,0
+TXN003617,CUST205,37401.96,2026-09-01 22:42:43,Hyderabad,Transfer,P2P Transfer,Failed,2026-09-01,22,Tuesday,10k-50k,5602.67,30,Medium,1,Amount is 6.7x this customer's usual,1,1,0,0,0,0
+TXN003712,CUST280,23319.9,2026-09-02 18:21:28,Ahmedabad,Withdrawal,ATM,Success,2026-09-02,18,Wednesday,10k-50k,6032.02,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN003736,CUST160,45220.49,2026-09-02 20:28:08,Delhi,Payment,Dining,Success,2026-09-02,20,Wednesday,10k-50k,9899.2,30,Medium,1,Amount is 4.6x this customer's usual,1,1,0,0,0,0
+TXN003772,CUST204,21067.53,2026-09-03 13:13:10,Chennai,Transfer,P2P Transfer,Success,2026-09-03,13,Thursday,10k-50k,6478.92,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN003776,CUST062,31566.16,2026-09-03 13:47:21,Ahmedabad,Transfer,P2P Transfer,Success,2026-09-03,13,Thursday,10k-50k,4105.95,30,Medium,1,Amount is 7.7x this customer's usual,1,1,0,0,0,0
+TXN003781,CUST018,5823.36,2026-09-03 14:06:48,Kolkata,Transfer,P2P Transfer,Success,2026-09-03,14,Thursday,1k-10k,539.59,30,Medium,1,Amount is 10.8x this customer's usual,1,1,0,0,0,0
+TXN003823,CUST282,8858.25,2026-09-03 17:42:22,Mumbai,Transfer,P2P Transfer,Success,2026-09-03,17,Thursday,1k-10k,1118.74,30,Medium,1,Amount is 7.9x this customer's usual,1,1,0,0,0,0
+TXN003832,CUST148,8974.59,2026-09-03 19:00:24,Delhi,Withdrawal,ATM,Success,2026-09-03,19,Thursday,1k-10k,1646.4,30,Medium,1,Amount is 5.5x this customer's usual,1,1,0,0,0,0
+TXN003843,CUST270,5862.98,2026-09-03 20:18:28,Ahmedabad,Transfer,P2P Transfer,Success,2026-09-03,20,Thursday,1k-10k,1754.52,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN003867,CUST182,26237.11,2026-09-04 11:41:02,Bengaluru,Transfer,P2P Transfer,Success,2026-09-04,11,Friday,10k-50k,2972.42,30,Medium,1,Amount is 8.8x this customer's usual,1,1,0,0,0,0
+TXN003902,CUST286,33316.53,2026-09-04 16:02:28,Bengaluru,Payment,Fuel,Success,2026-09-04,16,Friday,10k-50k,4753.51,30,Medium,1,Amount is 7.0x this customer's usual,1,1,0,0,0,0
+TXN003943,CUST270,5315.27,2026-09-04 20:20:45,Ahmedabad,Transfer,P2P Transfer,Success,2026-09-04,20,Friday,1k-10k,1754.52,30,Medium,1,Amount is 3.0x this customer's usual,1,1,0,0,0,0
+TXN003957,CUST243,27439.17,2026-09-04 23:47:32,Bengaluru,Payment,Fuel,Success,2026-09-04,23,Friday,10k-50k,6623.93,30,Medium,1,Amount is 4.1x this customer's usual,1,1,0,0,0,0
+TXN004004,CUST135,72399.3,2026-09-05 16:06:52,Bengaluru,Transfer,P2P Transfer,Success,2026-09-05,16,Saturday,50k+,6640.56,30,Medium,1,Amount is 10.9x this customer's usual,1,1,0,0,0,0
+TXN004062,CUST296,7637.01,2026-09-05 21:45:38,Hyderabad,Transfer,P2P Transfer,Success,2026-09-05,21,Saturday,1k-10k,1692.09,30,Medium,1,Amount is 4.5x this customer's usual,1,1,0,0,0,0
+TXN004105,CUST280,19841.48,2026-09-06 15:02:21,Ahmedabad,Withdrawal,ATM,Success,2026-09-06,15,Sunday,10k-50k,6032.02,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN004205,CUST021,24667.27,2026-09-07 13:03:21,Delhi,Transfer,P2P Transfer,Success,2026-09-07,13,Monday,10k-50k,4524.36,30,Medium,1,Amount is 5.5x this customer's usual,1,1,0,0,0,0
+TXN004209,CUST021,23214.28,2026-09-07 13:45:06,Delhi,Payment,Utilities,Success,2026-09-07,13,Monday,10k-50k,4524.36,30,Medium,1,Amount is 5.1x this customer's usual,1,1,0,0,0,0
+TXN004268,CUST057,16998.8,2026-09-07 20:07:17,Bengaluru,Payment,Online Shopping,Success,2026-09-07,20,Monday,10k-50k,4827.7,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN004275,CUST188,19127.76,2026-09-07 20:42:54,Pune,Transfer,P2P Transfer,Success,2026-09-07,20,Monday,10k-50k,2203.02,30,Medium,1,Amount is 8.7x this customer's usual,1,1,0,0,0,0
+TXN004303,CUST177,12279.18,2026-09-08 13:22:22,Hyderabad,Payment,Utilities,Success,2026-09-08,13,Tuesday,10k-50k,2059.28,30,Medium,1,Amount is 6.0x this customer's usual,1,1,0,0,0,0
+TXN004345,CUST048,5658.61,2026-09-08 16:17:39,Bengaluru,Withdrawal,ATM,Success,2026-09-08,16,Tuesday,1k-10k,810.34,30,Medium,1,Amount is 7.0x this customer's usual,1,1,0,0,0,0
+TXN004361,CUST100,31535.72,2026-09-08 17:59:43,Delhi,Transfer,P2P Transfer,Success,2026-09-08,17,Tuesday,10k-50k,3185.62,30,Medium,1,Amount is 9.9x this customer's usual,1,1,0,0,0,0
+TXN004384,CUST133,22505.94,2026-09-08 19:44:40,Pune,Transfer,P2P Transfer,Success,2026-09-08,19,Tuesday,10k-50k,5067.21,30,Medium,1,Amount is 4.4x this customer's usual,1,1,0,0,0,0
+TXN004395,CUST270,6028.52,2026-09-08 20:42:56,Ahmedabad,Payment,Travel,Success,2026-09-08,20,Tuesday,1k-10k,1754.52,30,Medium,1,Amount is 3.4x this customer's usual,1,1,0,0,0,0
+TXN004432,CUST022,7792.14,2026-09-09 13:19:51,Pune,Payment,Online Shopping,Success,2026-09-09,13,Wednesday,1k-10k,1965.8,30,Medium,1,Amount is 4.0x this customer's usual,1,1,0,0,0,0
+TXN004498,CUST079,43732.49,2026-09-09 18:27:38,Kolkata,Withdrawal,ATM,Success,2026-09-09,18,Wednesday,10k-50k,6018.55,30,Medium,1,Amount is 7.3x this customer's usual,1,1,0,0,0,0
+TXN004546,CUST069,5632.23,2026-09-10 13:25:16,Mumbai,Transfer,P2P Transfer,Success,2026-09-10,13,Thursday,1k-10k,1622.36,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN004567,CUST278,12990.79,2026-09-10 15:42:46,Ahmedabad,Withdrawal,ATM,Success,2026-09-10,15,Thursday,10k-50k,3693.24,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN004584,CUST188,26980.32,2026-09-10 16:41:06,Pune,Transfer,P2P Transfer,Success,2026-09-10,16,Thursday,10k-50k,2203.02,30,Medium,1,Amount is 12.2x this customer's usual,1,1,0,0,0,0
+TXN004621,CUST248,8211.86,2026-09-10 19:16:22,Kolkata,Payment,Utilities,Success,2026-09-10,19,Thursday,1k-10k,2259.03,30,Medium,1,Amount is 3.6x this customer's usual,1,1,0,0,0,0
+TXN004751,CUST225,10796.8,2026-09-11 20:08:12,Ahmedabad,Transfer,P2P Transfer,Success,2026-09-11,20,Friday,10k-50k,2796.29,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN004828,CUST126,7972.28,2026-09-12 18:07:51,Bengaluru,Transfer,P2P Transfer,Success,2026-09-12,18,Saturday,1k-10k,1447.71,30,Medium,1,Amount is 5.5x this customer's usual,1,1,0,0,0,0
+TXN004835,CUST157,7595.77,2026-09-12 18:45:31,Hyderabad,Transfer,P2P Transfer,Success,2026-09-12,18,Saturday,1k-10k,1527.86,30,Medium,1,Amount is 5.0x this customer's usual,1,1,0,0,0,0
+TXN004845,CUST144,99197.57,2026-09-12 19:37:55,Ahmedabad,Transfer,P2P Transfer,Success,2026-09-12,19,Saturday,50k+,7932.73,30,Medium,1,Amount is 12.5x this customer's usual,1,1,0,0,0,0
+TXN004879,CUST059,62785.38,2026-09-13 12:17:37,Bengaluru,Payment,Unknown,Success,2026-09-13,12,Sunday,50k+,9847.64,30,Medium,1,Amount is 6.4x this customer's usual,1,1,0,0,0,0
+TXN004891,CUST161,9593.83,2026-09-13 14:14:17,Bengaluru,Transfer,P2P Transfer,Success,2026-09-13,14,Sunday,1k-10k,2783.39,30,Medium,1,Amount is 3.4x this customer's usual,1,1,0,0,0,0
+TXN004995,CUST185,7510.09,2026-09-14 13:20:07,Hyderabad,Transfer,P2P Transfer,Success,2026-09-14,13,Monday,1k-10k,2360.18,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN005009,CUST122,24824.22,2026-09-14 14:58:07,Ahmedabad,Payment,Dining,Success,2026-09-14,14,Monday,10k-50k,2395.66,30,Medium,1,Amount is 10.4x this customer's usual,1,1,0,0,0,0
+TXN005014,CUST280,18433.37,2026-09-14 15:35:22,Ahmedabad,Withdrawal,ATM,Success,2026-09-14,15,Monday,10k-50k,6032.02,30,Medium,1,Amount is 3.1x this customer's usual,1,1,0,0,0,0
+TXN005178,CUST148,10989.26,2026-09-16 03:49:38,Delhi,Withdrawal,ATM,Success,2026-09-16,3,Wednesday,10k-50k,1646.4,30,Medium,1,Amount is 6.7x this customer's usual,1,1,0,0,0,0
+TXN005205,CUST160,40731.14,2026-09-16 15:29:48,Delhi,Payment,Groceries,Success,2026-09-16,15,Wednesday,10k-50k,9899.2,30,Medium,1,Amount is 4.1x this customer's usual,1,1,0,0,0,0
+TXN005249,CUST079,19399.23,2026-09-16 18:35:49,Kolkata,Transfer,P2P Transfer,Success,2026-09-16,18,Wednesday,10k-50k,6018.55,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN005286,CUST191,5609.93,2026-09-17 04:06:43,Delhi,Transfer,P2P Transfer,Failed,2026-09-17,4,Thursday,1k-10k,708.02,30,Medium,1,Amount is 7.9x this customer's usual,1,1,0,0,0,0
+TXN005306,CUST239,11799.63,2026-09-17 14:32:53,Bengaluru,Payment,Groceries,Success,2026-09-17,14,Thursday,10k-50k,2989.6,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN005324,CUST165,32916.64,2026-09-17 16:20:22,Mumbai,Transfer,P2P Transfer,Success,2026-09-17,16,Thursday,10k-50k,7981.78,30,Medium,1,Amount is 4.1x this customer's usual,1,1,0,0,0,0
+TXN005442,CUST011,7100.45,2026-09-18 17:33:23,Mumbai,Payment,Dining,Success,2026-09-18,17,Friday,1k-10k,1569.47,30,Medium,1,Amount is 4.5x this customer's usual,1,1,0,0,0,0
+TXN005461,CUST284,7121.14,2026-09-18 19:11:45,Ahmedabad,Withdrawal,ATM,Success,2026-09-18,19,Friday,1k-10k,1421.92,30,Medium,1,Amount is 5.0x this customer's usual,1,1,0,0,0,0
+TXN005489,CUST035,5306.88,2026-09-19 12:33:53,Chennai,Payment,Groceries,Success,2026-09-19,12,Saturday,1k-10k,1581.46,30,Medium,1,Amount is 3.4x this customer's usual,1,1,0,0,0,0
+TXN005511,CUST226,6863.37,2026-09-19 15:10:47,Pune,Payment,Travel,Success,2026-09-19,15,Saturday,1k-10k,2089.26,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN005514,CUST133,15459.15,2026-09-19 15:31:31,Pune,Payment,Entertainment,Success,2026-09-19,15,Saturday,10k-50k,5067.21,30,Medium,1,Amount is 3.1x this customer's usual,1,1,0,0,0,0
+TXN005521,CUST136,5579.11,2026-09-19 15:58:18,Hyderabad,Transfer,P2P Transfer,Success,2026-09-19,15,Saturday,1k-10k,1853.2,30,Medium,1,Amount is 3.0x this customer's usual,1,1,0,0,0,0
+TXN005571,CUST016,24078.69,2026-09-19 21:55:10,Kolkata,Payment,Dining,Success,2026-09-19,21,Saturday,10k-50k,7650.73,30,Medium,1,Amount is 3.1x this customer's usual,1,1,0,0,0,0
+TXN005577,CUST214,8300.99,2026-09-20 03:07:52,Delhi,Withdrawal,ATM,Success,2026-09-20,3,Sunday,1k-10k,802.82,30,Medium,1,Amount is 10.3x this customer's usual,1,1,0,0,0,0
+TXN005584,CUST266,10521.46,2026-09-20 10:07:50,Ahmedabad,Transfer,P2P Transfer,Success,2026-09-20,10,Sunday,10k-50k,836.66,30,Medium,1,Amount is 12.6x this customer's usual,1,1,0,0,0,0
+TXN005618,CUST250,22045.3,2026-09-20 15:51:49,Mumbai,Payment,Fuel,Success,2026-09-20,15,Sunday,10k-50k,7189.6,30,Medium,1,Amount is 3.1x this customer's usual,1,1,0,0,0,0
+TXN005642,CUST094,9806.43,2026-09-20 17:59:48,Delhi,Payment,Online Shopping,Success,2026-09-20,17,Sunday,1k-10k,1634.99,30,Medium,1,Amount is 6.0x this customer's usual,1,1,0,0,0,0
+TXN005656,CUST257,15377.83,2026-09-20 19:08:35,Ahmedabad,Transfer,P2P Transfer,Success,2026-09-20,19,Sunday,10k-50k,2721.72,30,Medium,1,Amount is 5.7x this customer's usual,1,1,0,0,0,0
+TXN005657,CUST281,45131.92,2026-09-20 19:14:08,Chennai,Payment,Fuel,Success,2026-09-20,19,Sunday,10k-50k,8152.38,30,Medium,1,Amount is 5.5x this customer's usual,1,1,0,0,0,0
+TXN005722,CUST126,8249.43,2026-09-21 15:30:08,Bengaluru,Withdrawal,ATM,Success,2026-09-21,15,Monday,1k-10k,1447.71,30,Medium,1,Amount is 5.7x this customer's usual,1,1,0,0,0,0
+TXN005753,CUST198,26822.35,2026-09-21 17:41:35,Chennai,Transfer,P2P Transfer,Success,2026-09-21,17,Monday,10k-50k,4771.5,30,Medium,1,Amount is 5.6x this customer's usual,1,1,0,0,0,0
+TXN005785,CUST285,6112.64,2026-09-21 20:57:27,Chennai,Transfer,P2P Transfer,Success,2026-09-21,20,Monday,1k-10k,571.89,30,Medium,1,Amount is 10.7x this customer's usual,1,1,0,0,0,0
+TXN005800,CUST190,24749.74,2026-09-22 12:10:14,Pune,Transfer,P2P Transfer,Success,2026-09-22,12,Tuesday,10k-50k,6675.15,30,Medium,1,Amount is 3.7x this customer's usual,1,1,0,0,0,0
+TXN005817,CUST226,6462.24,2026-09-22 14:06:30,Pune,Transfer,P2P Transfer,Success,2026-09-22,14,Tuesday,1k-10k,2089.26,30,Medium,1,Amount is 3.1x this customer's usual,1,1,0,0,0,0
+TXN005835,CUST245,18052.68,2026-09-22 15:41:43,Bengaluru,Transfer,P2P Transfer,Success,2026-09-22,15,Tuesday,10k-50k,1666.33,30,Medium,1,Amount is 10.8x this customer's usual,1,1,0,0,0,0
+TXN005842,CUST288,33708.47,2026-09-22 16:28:22,Chennai,Payment,Dining,Success,2026-09-22,16,Tuesday,10k-50k,6707.87,30,Medium,1,Amount is 5.0x this customer's usual,1,1,0,0,0,0
+TXN005854,CUST104,12144.9,2026-09-22 17:15:10,Mumbai,Payment,Entertainment,Success,2026-09-22,17,Tuesday,10k-50k,3127.92,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN005875,CUST123,21499.32,2026-09-22 21:05:47,Delhi,Withdrawal,ATM,Success,2026-09-22,21,Tuesday,10k-50k,2747.63,30,Medium,1,Amount is 7.8x this customer's usual,1,1,0,0,0,0
+TXN005940,CUST160,38757.61,2026-09-23 16:25:39,Delhi,Transfer,P2P Transfer,Failed,2026-09-23,16,Wednesday,10k-50k,9899.2,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN005967,CUST013,10090.13,2026-09-23 18:04:20,Hyderabad,Transfer,P2P Transfer,Success,2026-09-23,18,Wednesday,10k-50k,1662.3,30,Medium,1,Amount is 6.1x this customer's usual,1,1,0,0,0,0
+TXN005978,CUST167,7255.34,2026-09-23 19:35:20,Mumbai,Transfer,P2P Transfer,Success,2026-09-23,19,Wednesday,1k-10k,2295.66,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN005982,CUST124,6791.57,2026-09-23 20:21:59,Kolkata,Transfer,P2P Transfer,Success,2026-09-23,20,Wednesday,1k-10k,1526.12,30,Medium,1,Amount is 4.5x this customer's usual,1,1,0,0,0,0
+TXN006034,CUST236,22900.93,2026-09-24 14:12:22,Delhi,Transfer,P2P Transfer,Success,2026-09-24,14,Thursday,10k-50k,6140.38,30,Medium,1,Amount is 3.7x this customer's usual,1,1,0,0,0,0
+TXN006067,CUST263,10693.7,2026-09-24 17:13:08,Kolkata,Withdrawal,ATM,Success,2026-09-24,17,Thursday,10k-50k,2396.56,30,Medium,1,Amount is 4.5x this customer's usual,1,1,0,0,0,0
+TXN006098,CUST278,18387.44,2026-09-24 19:19:02,Ahmedabad,Payment,Online Shopping,Success,2026-09-24,19,Thursday,10k-50k,3693.24,30,Medium,1,Amount is 5.0x this customer's usual,1,1,0,0,0,0
+TXN006099,CUST151,36042.85,2026-09-24 19:19:13,Delhi,Transfer,P2P Transfer,Success,2026-09-24,19,Thursday,10k-50k,5340.83,30,Medium,1,Amount is 6.7x this customer's usual,1,1,0,0,0,0
+TXN006180,CUST039,16601.36,2026-09-25 16:34:09,Ahmedabad,Payment,Entertainment,Success,2026-09-25,16,Friday,10k-50k,3167.35,30,Medium,1,Amount is 5.2x this customer's usual,1,1,0,0,0,0
+TXN006192,CUST210,5476.31,2026-09-25 17:44:54,Kolkata,Payment,Travel,Success,2026-09-25,17,Friday,1k-10k,1654.7,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN006200,CUST020,5116.48,2026-09-25 18:49:38,Pune,Transfer,P2P Transfer,Success,2026-09-25,18,Friday,1k-10k,1316.47,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN006244,CUST072,6632.17,2026-09-26 13:06:35,Kolkata,Withdrawal,ATM,Success,2026-09-26,13,Saturday,1k-10k,902.76,30,Medium,1,Amount is 7.3x this customer's usual,1,1,0,0,0,0
+TXN006274,CUST104,13091.27,2026-09-26 16:45:14,Mumbai,Payment,Dining,Success,2026-09-26,16,Saturday,10k-50k,3127.92,30,Medium,1,Amount is 4.2x this customer's usual,1,1,0,0,0,0
+TXN006299,CUST031,9574.06,2026-09-26 19:34:48,Bengaluru,Payment,Groceries,Success,2026-09-26,19,Saturday,1k-10k,2037.36,30,Medium,1,Amount is 4.7x this customer's usual,1,1,0,0,0,0
+TXN006301,CUST100,21580.27,2026-09-26 19:52:00,Delhi,Payment,Dining,Success,2026-09-26,19,Saturday,10k-50k,3185.62,30,Medium,1,Amount is 6.8x this customer's usual,1,1,0,0,0,0
+TXN006306,CUST163,19272.29,2026-09-26 20:45:52,Kolkata,Transfer,P2P Transfer,Success,2026-09-26,20,Saturday,10k-50k,5826.16,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN006323,CUST244,10599.21,2026-09-27 10:06:22,Kolkata,Transfer,P2P Transfer,Success,2026-09-27,10,Sunday,10k-50k,1557.71,30,Medium,1,Amount is 6.8x this customer's usual,1,1,0,0,0,0
+TXN006364,CUST263,7437.51,2026-09-27 15:43:20,Kolkata,Withdrawal,ATM,Success,2026-09-27,15,Sunday,1k-10k,2396.56,30,Medium,1,Amount is 3.1x this customer's usual,1,1,0,0,0,0
+TXN006431,CUST270,5879.79,2026-09-27 21:48:33,Ahmedabad,Payment,Healthcare,Success,2026-09-27,21,Sunday,1k-10k,1754.52,30,Medium,1,Amount is 3.4x this customer's usual,1,1,0,0,0,0
+TXN006465,CUST280,38865.28,2026-09-28 13:57:38,Ahmedabad,Withdrawal,ATM,Success,2026-09-28,13,Monday,10k-50k,6032.02,30,Medium,1,Amount is 6.4x this customer's usual,1,1,0,0,0,0
+TXN006496,CUST193,5790.08,2026-09-28 17:10:15,Chennai,Payment,Entertainment,Success,2026-09-28,17,Monday,1k-10k,1077.9,30,Medium,1,Amount is 5.4x this customer's usual,1,1,0,0,0,0
+TXN006500,CUST278,20248.11,2026-09-28 17:24:08,Ahmedabad,Transfer,P2P Transfer,Success,2026-09-28,17,Monday,10k-50k,3693.24,30,Medium,1,Amount is 5.5x this customer's usual,1,1,0,0,0,0
+TXN006540,CUST254,27829.99,2026-09-28 20:46:03,Kolkata,Transfer,P2P Transfer,Success,2026-09-28,20,Monday,10k-50k,7148.88,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN006648,CUST172,20627.31,2026-09-29 22:49:46,Hyderabad,Transfer,P2P Transfer,Success,2026-09-29,22,Tuesday,10k-50k,3491.02,30,Medium,1,Amount is 5.9x this customer's usual,1,1,0,0,0,0
+TXN006651,CUST296,5146.81,2026-09-29 22:54:07,Hyderabad,Transfer,P2P Transfer,Success,2026-09-29,22,Tuesday,1k-10k,1692.09,30,Medium,1,Amount is 3.0x this customer's usual,1,1,0,0,0,0
+TXN006700,CUST233,10685.01,2026-09-30 16:06:39,Bengaluru,Transfer,P2P Transfer,Success,2026-09-30,16,Wednesday,10k-50k,1187.57,30,Medium,1,Amount is 9.0x this customer's usual,1,1,0,0,0,0
+TXN006704,CUST184,6387.46,2026-09-30 16:22:15,Bengaluru,Withdrawal,ATM,Success,2026-09-30,16,Wednesday,1k-10k,470.11,30,Medium,1,Amount is 13.6x this customer's usual,1,1,0,0,0,0
+TXN006783,CUST038,21733.43,2026-10-01 13:48:32,Hyderabad,Payment,Healthcare,Success,2026-10-01,13,Thursday,10k-50k,5680.6,30,Medium,1,Amount is 3.8x this customer's usual,1,1,0,0,0,0
+TXN006796,CUST183,9016.65,2026-10-01 14:51:19,Bengaluru,Payment,Online Shopping,Success,2026-10-01,14,Thursday,1k-10k,1431.62,30,Medium,1,Amount is 6.3x this customer's usual,1,1,0,0,0,0
+TXN006798,CUST133,27265.77,2026-10-01 15:04:13,Pune,Payment,Utilities,Success,2026-10-01,15,Thursday,10k-50k,5067.21,30,Medium,1,Amount is 5.4x this customer's usual,1,1,0,0,0,0
+TXN006812,CUST245,6125.78,2026-10-01 16:22:32,Bengaluru,Transfer,P2P Transfer,Success,2026-10-01,16,Thursday,1k-10k,1666.33,30,Medium,1,Amount is 3.7x this customer's usual,1,1,0,0,0,0
+TXN006818,CUST088,6260.64,2026-10-01 16:53:43,Unknown,Payment,Fuel,Success,2026-10-01,16,Thursday,1k-10k,1408.48,30,Medium,1,Amount is 4.4x this customer's usual,1,1,0,0,0,0
+TXN006864,CUST273,5475.05,2026-10-02 00:11:40,Kolkata,Payment,Dining,Success,2026-10-02,0,Friday,1k-10k,802.46,30,Medium,1,Amount is 6.8x this customer's usual,1,1,0,0,0,0
+TXN006903,CUST294,39408.72,2026-10-02 15:32:05,Delhi,Transfer,P2P Transfer,Success,2026-10-02,15,Friday,10k-50k,8827.22,30,Medium,1,Amount is 4.5x this customer's usual,1,1,0,0,0,0
+TXN006924,CUST216,7215.33,2026-10-02 17:14:39,Kolkata,Transfer,P2P Transfer,Success,2026-10-02,17,Friday,1k-10k,1682.95,30,Medium,1,Amount is 4.3x this customer's usual,1,1,0,0,0,0
+TXN007041,CUST296,7549.33,2026-10-03 18:12:03,Hyderabad,Transfer,P2P Transfer,Success,2026-10-03,18,Saturday,1k-10k,1692.09,30,Medium,1,Amount is 4.5x this customer's usual,1,1,0,0,0,0
+TXN007067,CUST201,6531.44,2026-10-03 20:57:22,Bengaluru,Transfer,P2P Transfer,Success,2026-10-03,20,Saturday,1k-10k,1266.62,30,Medium,1,Amount is 5.2x this customer's usual,1,1,0,0,0,0
+TXN007111,CUST104,12552.95,2026-10-04 15:12:50,Mumbai,Transfer,P2P Transfer,Success,2026-10-04,15,Sunday,10k-50k,3127.92,30,Medium,1,Amount is 4.0x this customer's usual,1,1,0,0,0,0
+TXN007165,CUST028,5522.86,2026-10-04 19:13:04,Delhi,Payment,Travel,Success,2026-10-04,19,Sunday,1k-10k,1618.58,30,Medium,1,Amount is 3.4x this customer's usual,1,1,0,0,0,0
+TXN007207,CUST049,7526.48,2026-10-05 14:12:48,Bengaluru,Transfer,P2P Transfer,Success,2026-10-05,14,Monday,1k-10k,2290.68,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN007220,CUST160,151991.48,2026-10-05 14:59:39,Delhi,Transfer,P2P Transfer,Success,2026-10-05,14,Monday,50k+,9899.2,30,Medium,1,Amount is 15.4x this customer's usual,1,1,0,0,0,0
+TXN007240,CUST253,14118.34,2026-10-05 16:35:31,Mumbai,Payment,Online Shopping,Success,2026-10-05,16,Monday,10k-50k,1524.86,30,Medium,1,Amount is 9.3x this customer's usual,1,1,0,0,0,0
+TXN007291,CUST296,10152.46,2026-10-05 21:14:38,Hyderabad,Transfer,P2P Transfer,Success,2026-10-05,21,Monday,10k-50k,1692.09,30,Medium,1,Amount is 6.0x this customer's usual,1,1,0,0,0,0
+TXN007358,CUST063,30698.48,2026-10-06 16:34:46,Mumbai,Transfer,P2P Transfer,Success,2026-10-06,16,Tuesday,10k-50k,9301.22,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN007495,CUST089,6306.76,2026-10-07 19:35:07,Mumbai,Transfer,P2P Transfer,Success,2026-10-07,19,Wednesday,1k-10k,852.91,30,Medium,1,Amount is 7.4x this customer's usual,1,1,0,0,0,0
+TXN007589,CUST195,12433.19,2026-10-08 17:32:07,Pune,Payment,Utilities,Success,2026-10-08,17,Thursday,10k-50k,3482.65,30,Medium,1,Amount is 3.6x this customer's usual,1,1,0,0,0,0
+TXN007610,CUST124,8711.72,2026-10-08 19:18:26,Kolkata,Payment,Dining,Success,2026-10-08,19,Thursday,1k-10k,1526.12,30,Medium,1,Amount is 5.7x this customer's usual,1,1,0,0,0,0
+TXN007618,CUST210,10816.42,2026-10-08 20:29:22,Ahmedabad,Payment,Utilities,Success,2026-10-08,20,Thursday,10k-50k,1654.7,30,Medium,1,Amount is 6.5x this customer's usual,1,1,0,0,0,0
+TXN007621,CUST012,21146.49,2026-10-08 21:06:24,Ahmedabad,Payment,Healthcare,Success,2026-10-08,21,Thursday,10k-50k,7005.43,30,Medium,1,Amount is 3.0x this customer's usual,1,1,0,0,0,0
+TXN007659,CUST102,16566.08,2026-10-09 13:12:49,Kolkata,Transfer,P2P Transfer,Success,2026-10-09,13,Friday,10k-50k,5462.19,30,Medium,1,Amount is 3.0x this customer's usual,1,1,0,0,0,0
+TXN007661,CUST261,52758.49,2026-10-09 13:50:08,Chennai,Transfer,P2P Transfer,Success,2026-10-09,13,Friday,50k+,8754.41,30,Medium,1,Amount is 6.0x this customer's usual,1,1,0,0,0,0
+TXN007715,CUST079,30575.75,2026-10-09 18:42:27,Kolkata,Transfer,P2P Transfer,Failed,2026-10-09,18,Friday,10k-50k,6018.55,30,Medium,1,Amount is 5.1x this customer's usual,1,1,0,0,0,0
+TXN007743,CUST108,20796.38,2026-10-09 22:23:32,Mumbai,Payment,Entertainment,Success,2026-10-09,22,Friday,10k-50k,6031.04,30,Medium,1,Amount is 3.4x this customer's usual,1,1,0,0,0,0
+TXN007747,CUST041,5425.44,2026-10-09 22:40:11,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-09,22,Friday,1k-10k,1172.4,30,Medium,1,Amount is 4.6x this customer's usual,1,1,0,0,0,0
+TXN007878,CUST136,6075.25,2026-10-11 11:05:24,Hyderabad,Payment,Fuel,Success,2026-10-11,11,Sunday,1k-10k,1853.2,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN007923,CUST074,39880.11,2026-10-11 16:07:34,Mumbai,Withdrawal,ATM,Success,2026-10-11,16,Sunday,10k-50k,5752.3,30,Medium,1,Amount is 6.9x this customer's usual,1,1,0,0,0,0
+TXN007932,CUST280,31042.18,2026-10-11 16:38:22,Ahmedabad,Payment,Fuel,Success,2026-10-11,16,Sunday,10k-50k,6032.02,30,Medium,1,Amount is 5.1x this customer's usual,1,1,0,0,0,0
+TXN008001,CUST237,103208.21,2026-10-11 23:13:13,Kolkata,Transfer,P2P Transfer,Success,2026-10-11,23,Sunday,50k+,9046.21,30,Medium,1,Amount is 11.4x this customer's usual,1,1,0,0,0,0
+TXN008014,CUST295,6288.2,2026-10-12 11:32:51,Kolkata,Transfer,P2P Transfer,Success,2026-10-12,11,Monday,1k-10k,1316.02,30,Medium,1,Amount is 4.8x this customer's usual,1,1,0,0,0,0
+TXN008068,CUST110,18766.94,2026-10-12 17:00:52,Mumbai,Transfer,P2P Transfer,Success,2026-10-12,17,Monday,10k-50k,6081.24,30,Medium,1,Amount is 3.1x this customer's usual,1,1,0,0,0,0
+TXN008246,CUST049,9668.16,2026-10-14 14:22:22,Bengaluru,Payment,Utilities,Success,2026-10-14,14,Wednesday,1k-10k,2290.68,30,Medium,1,Amount is 4.2x this customer's usual,1,1,0,0,0,0
+TXN008304,CUST104,14729.95,2026-10-14 18:36:13,Mumbai,Payment,Utilities,Success,2026-10-14,18,Wednesday,10k-50k,3127.92,30,Medium,1,Amount is 4.7x this customer's usual,1,1,0,0,0,0
+TXN008313,CUST227,18459.13,2026-10-14 19:52:31,Delhi,Transfer,P2P Transfer,Success,2026-10-14,19,Wednesday,10k-50k,6138.72,30,Medium,1,Amount is 3.0x this customer's usual,1,1,0,0,0,0
+TXN008328,CUST205,27711.99,2026-10-15 00:13:22,Hyderabad,Transfer,P2P Transfer,Success,2026-10-15,0,Thursday,10k-50k,5602.67,30,Medium,1,Amount is 4.9x this customer's usual,1,1,0,0,0,0
+TXN008351,CUST161,16646.29,2026-10-15 13:41:02,Bengaluru,Transfer,P2P Transfer,Success,2026-10-15,13,Thursday,10k-50k,2783.39,30,Medium,1,Amount is 6.0x this customer's usual,1,1,0,0,0,0
+TXN008386,CUST294,79470.12,2026-10-15 16:25:46,Delhi,Transfer,P2P Transfer,Success,2026-10-15,16,Thursday,50k+,8827.22,30,Medium,1,Amount is 9.0x this customer's usual,1,1,0,0,0,0
+TXN008393,CUST086,31224.57,2026-10-15 17:11:35,Mumbai,Payment,Online Shopping,Success,2026-10-15,17,Thursday,10k-50k,8870.56,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN008443,CUST121,9127.68,2026-10-15 22:49:04,Bengaluru,Transfer,P2P Transfer,Success,2026-10-15,22,Thursday,1k-10k,2575.83,30,Medium,1,Amount is 3.5x this customer's usual,1,1,0,0,0,0
+TXN008457,CUST106,36607.54,2026-10-16 11:55:05,Delhi,Payment,Utilities,Success,2026-10-16,11,Friday,10k-50k,9876.06,30,Medium,1,Amount is 3.7x this customer's usual,1,1,0,0,0,0
+TXN008478,CUST133,36541.27,2026-10-16 14:51:24,Pune,Payment,Groceries,Success,2026-10-16,14,Friday,10k-50k,5067.21,30,Medium,1,Amount is 7.2x this customer's usual,1,1,0,0,0,0
+TXN008569,CUST087,66570.66,2026-10-17 12:32:34,Delhi,Transfer,P2P Transfer,Success,2026-10-17,12,Saturday,50k+,5707.86,30,Medium,1,Amount is 11.7x this customer's usual,1,1,0,0,0,0
+TXN008577,CUST278,22570.06,2026-10-17 12:59:03,Ahmedabad,Payment,Healthcare,Success,2026-10-17,12,Saturday,10k-50k,3693.24,30,Medium,1,Amount is 6.1x this customer's usual,1,1,0,0,0,0
+TXN008636,CUST041,7799.24,2026-10-17 19:25:27,Ahmedabad,Payment,Travel,Success,2026-10-17,19,Saturday,1k-10k,1172.4,30,Medium,1,Amount is 6.7x this customer's usual,1,1,0,0,0,0
+TXN008762,CUST260,12074.19,2026-10-18 20:35:00,Pune,Payment,Healthcare,Success,2026-10-18,20,Sunday,10k-50k,2556.37,30,Medium,1,Amount is 4.7x this customer's usual,1,1,0,0,0,0
+TXN008777,CUST159,47118.58,2026-10-19 09:50:50,Bengaluru,Payment,Healthcare,Success,2026-10-19,9,Monday,10k-50k,4328.43,30,Medium,1,Amount is 10.9x this customer's usual,1,1,0,0,0,0
+TXN008855,CUST040,16865.19,2026-10-19 17:27:49,Hyderabad,Payment,Groceries,Success,2026-10-19,17,Monday,10k-50k,5298.52,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN008870,CUST126,5403.16,2026-10-19 18:28:55,Bengaluru,Transfer,P2P Transfer,Success,2026-10-19,18,Monday,1k-10k,1447.71,30,Medium,1,Amount is 3.7x this customer's usual,1,1,0,0,0,0
+TXN008910,CUST033,5566.63,2026-10-20 11:07:28,Delhi,Transfer,P2P Transfer,Success,2026-10-20,11,Tuesday,1k-10k,1134.95,30,Medium,1,Amount is 4.9x this customer's usual,1,1,0,0,0,0
+TXN008913,CUST234,9511.04,2026-10-20 12:06:34,Delhi,Transfer,P2P Transfer,Success,2026-10-20,12,Tuesday,1k-10k,729.2,30,Medium,1,Amount is 13.0x this customer's usual,1,1,0,0,0,0
+TXN008923,CUST046,5252.35,2026-10-20 14:07:59,Mumbai,Payment,Utilities,Success,2026-10-20,14,Tuesday,1k-10k,1220.81,30,Medium,1,Amount is 4.3x this customer's usual,1,1,0,0,0,0
+TXN009046,CUST133,18076.46,2026-10-21 16:13:52,Pune,Payment,Utilities,Success,2026-10-21,16,Wednesday,10k-50k,5067.21,30,Medium,1,Amount is 3.6x this customer's usual,1,1,0,0,0,0
+TXN009061,CUST104,11362.55,2026-10-21 17:55:36,Mumbai,Payment,Dining,Success,2026-10-21,17,Wednesday,10k-50k,3127.92,30,Medium,1,Amount is 3.6x this customer's usual,1,1,0,0,0,0
+TXN009088,CUST169,11946.29,2026-10-21 21:53:35,Hyderabad,Withdrawal,ATM,Success,2026-10-21,21,Wednesday,10k-50k,1213.33,30,Medium,1,Amount is 9.8x this customer's usual,1,1,0,0,0,0
+TXN009137,CUST094,5529.98,2026-10-22 15:46:10,Delhi,Payment,Utilities,Success,2026-10-22,15,Thursday,1k-10k,1634.99,30,Medium,1,Amount is 3.4x this customer's usual,1,1,0,0,0,0
+TXN009143,CUST157,5535.86,2026-10-22 16:21:48,Hyderabad,Transfer,P2P Transfer,Success,2026-10-22,16,Thursday,1k-10k,1527.86,30,Medium,1,Amount is 3.6x this customer's usual,1,1,0,0,0,0
+TXN009151,CUST126,7891.5,2026-10-22 16:44:00,Bengaluru,Transfer,P2P Transfer,Success,2026-10-22,16,Thursday,1k-10k,1447.71,30,Medium,1,Amount is 5.5x this customer's usual,1,1,0,0,0,0
+TXN009155,CUST086,58224.34,2026-10-22 17:05:19,Mumbai,Transfer,P2P Transfer,Success,2026-10-22,17,Thursday,50k+,8870.56,30,Medium,1,Amount is 6.6x this customer's usual,1,1,0,0,0,0
+TXN009177,CUST029,6350.24,2026-10-22 19:21:55,Delhi,Transfer,P2P Transfer,Success,2026-10-22,19,Thursday,1k-10k,2049.24,30,Medium,1,Amount is 3.1x this customer's usual,1,1,0,0,0,0
+TXN009218,CUST126,5236.49,2026-10-23 11:02:21,Bengaluru,Transfer,P2P Transfer,Success,2026-10-23,11,Friday,1k-10k,1447.71,30,Medium,1,Amount is 3.6x this customer's usual,1,1,0,0,0,0
+TXN009223,CUST295,5076.37,2026-10-23 11:57:58,Kolkata,Transfer,P2P Transfer,Success,2026-10-23,11,Friday,1k-10k,1316.02,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN009240,CUST106,32976.63,2026-10-23 13:43:23,Delhi,Payment,Healthcare,Success,2026-10-23,13,Friday,10k-50k,9876.06,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN009289,CUST172,11829.33,2026-10-23 19:02:38,Hyderabad,Payment,Fuel,Success,2026-10-23,19,Friday,10k-50k,3491.02,30,Medium,1,Amount is 3.4x this customer's usual,1,1,0,0,0,0
+TXN009315,CUST109,9537.41,2026-10-23 22:07:47,Pune,Transfer,P2P Transfer,Success,2026-10-23,22,Friday,1k-10k,2947.94,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN009330,CUST293,12843.87,2026-10-24 11:19:01,Chennai,Transfer,P2P Transfer,Success,2026-10-24,11,Saturday,10k-50k,1064.9,30,Medium,1,Amount is 12.1x this customer's usual,1,1,0,0,0,0
+TXN009344,CUST063,30647.12,2026-10-24 14:20:08,Mumbai,Withdrawal,ATM,Failed,2026-10-24,14,Saturday,10k-50k,9301.22,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN009384,CUST283,7668.8,2026-10-24 17:02:40,Delhi,Payment,Fuel,Success,2026-10-24,17,Saturday,1k-10k,1750.95,30,Medium,1,Amount is 4.4x this customer's usual,1,1,0,0,0,0
+TXN009405,CUST135,29788.2,2026-10-24 18:30:38,Bengaluru,Transfer,P2P Transfer,Success,2026-10-24,18,Saturday,10k-50k,6640.56,30,Medium,1,Amount is 4.5x this customer's usual,1,1,0,0,0,0
+TXN009412,CUST248,18613.96,2026-10-24 19:13:18,Kolkata,Payment,Utilities,Success,2026-10-24,19,Saturday,10k-50k,2259.03,30,Medium,1,Amount is 8.2x this customer's usual,1,1,0,0,0,0
+TXN009434,CUST211,19499.59,2026-10-25 04:10:27,Kolkata,Transfer,P2P Transfer,Success,2026-10-25,4,Sunday,10k-50k,6031.49,30,Medium,1,Amount is 3.2x this customer's usual,1,1,0,0,0,0
+TXN009450,CUST017,13753.59,2026-10-25 12:13:49,Kolkata,Transfer,P2P Transfer,Success,2026-10-25,12,Sunday,10k-50k,3805.67,30,Medium,1,Amount is 3.6x this customer's usual,1,1,0,0,0,0
+TXN009459,CUST195,27436.47,2026-10-25 13:40:26,Pune,Payment,Utilities,Success,2026-10-25,13,Sunday,10k-50k,3482.65,30,Medium,1,Amount is 7.9x this customer's usual,1,1,0,0,0,0
+TXN009468,CUST212,10964.93,2026-10-25 14:18:27,Pune,Transfer,P2P Transfer,Success,2026-10-25,14,Sunday,10k-50k,1847.43,30,Medium,1,Amount is 5.9x this customer's usual,1,1,0,0,0,0
+TXN009506,CUST161,9494.71,2026-10-25 16:39:05,Bengaluru,Transfer,P2P Transfer,Success,2026-10-25,16,Sunday,1k-10k,2783.39,30,Medium,1,Amount is 3.4x this customer's usual,1,1,0,0,0,0
+TXN009608,CUST074,41066.29,2026-10-26 17:12:37,Mumbai,Payment,Entertainment,Success,2026-10-26,17,Monday,10k-50k,5752.3,30,Medium,1,Amount is 7.1x this customer's usual,1,1,0,0,0,0
+TXN009623,CUST263,14477.27,2026-10-26 18:51:03,Kolkata,Transfer,P2P Transfer,Success,2026-10-26,18,Monday,10k-50k,2396.56,30,Medium,1,Amount is 6.0x this customer's usual,1,1,0,0,0,0
+TXN009650,CUST243,39951.38,2026-10-27 01:52:14,Bengaluru,Payment,Online Shopping,Success,2026-10-27,1,Tuesday,10k-50k,6623.93,30,Medium,1,Amount is 6.0x this customer's usual,1,1,0,0,0,0
+TXN009654,CUST057,25344.89,2026-10-27 04:31:48,Bengaluru,Withdrawal,ATM,Success,2026-10-27,4,Tuesday,10k-50k,4827.7,30,Medium,1,Amount is 5.2x this customer's usual,1,1,0,0,0,0
+TXN009675,CUST249,17140.63,2026-10-27 12:19:56,Kolkata,Withdrawal,ATM,Success,2026-10-27,12,Tuesday,10k-50k,4462.72,30,Medium,1,Amount is 3.8x this customer's usual,1,1,0,0,0,0
+TXN009705,CUST262,10636.9,2026-10-27 14:47:46,Mumbai,Transfer,P2P Transfer,Success,2026-10-27,14,Tuesday,10k-50k,3210.33,30,Medium,1,Amount is 3.3x this customer's usual,1,1,0,0,0,0
+TXN009781,CUST064,18838.49,2026-10-28 08:02:06,Pune,Transfer,P2P Transfer,Success,2026-10-28,8,Wednesday,10k-50k,3162.63,30,Medium,1,Amount is 6.0x this customer's usual,1,1,0,0,0,0
+TXN009893,CUST169,6112.61,2026-10-28 23:13:36,Hyderabad,Payment,Fuel,Success,2026-10-28,23,Wednesday,1k-10k,1213.33,30,Medium,1,Amount is 5.0x this customer's usual,1,1,0,0,0,0
+TXN009911,CUST014,37895.31,2026-10-29 12:33:28,Bengaluru,Payment,Travel,Success,2026-10-29,12,Thursday,10k-50k,8716.83,30,Medium,1,Amount is 4.3x this customer's usual,1,1,0,0,0,0
+TXN009961,CUST262,14040.9,2026-10-29 18:00:09,Mumbai,Withdrawal,ATM,Success,2026-10-29,18,Thursday,10k-50k,3210.33,30,Medium,1,Amount is 4.4x this customer's usual,1,1,0,0,0,0
+TXN009963,CUST175,10143.47,2026-10-29 18:03:46,Mumbai,Payment,Dining,Success,2026-10-29,18,Thursday,10k-50k,2059.64,30,Medium,1,Amount is 4.9x this customer's usual,1,1,0,0,0,0
+TXN009982,CUST031,7890.81,2026-10-29 19:50:57,Bengaluru,Transfer,P2P Transfer,Success,2026-10-29,19,Thursday,1k-10k,2037.36,30,Medium,1,Amount is 3.9x this customer's usual,1,1,0,0,0,0
+TXN000153,CUST012,6301.33,2026-08-02 17:35:08,Hyderabad,Payment,Fuel,Success,2026-08-02,17,Sunday,1k-10k,7005.43,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN000455,CUST021,1719.32,2026-08-05 15:48:01,Chennai,Transfer,P2P Transfer,Success,2026-08-05,15,Wednesday,1k-10k,4524.36,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN000586,CUST079,6077.57,2026-08-06 18:22:14,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-06,18,Thursday,1k-10k,6018.55,25,Low,1,Unusual city: Ahmedabad,1,0,0,1,0,0
+TXN000737,CUST203,1560.65,2026-08-08 13:15:35,Hyderabad,Transfer,P2P Transfer,Success,2026-08-08,13,Saturday,1k-10k,1136.63,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN000774,CUST241,1560.61,2026-08-08 16:56:07,Mumbai,Transfer,P2P Transfer,Success,2026-08-08,16,Saturday,1k-10k,2045.02,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN001053,CUST156,1337.54,2026-08-11 11:34:09,Ahmedabad,Payment,Fuel,Success,2026-08-11,11,Tuesday,1k-10k,626.8,25,Low,1,Unusual city: Ahmedabad,1,0,0,1,0,0
+TXN001099,CUST044,524.96,2026-08-11 17:04:58,Kolkata,Payment,Travel,Success,2026-08-11,17,Tuesday,Under 1k,1063.59,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN001298,CUST222,3525.6,2026-08-13 16:09:57,Mumbai,Transfer,P2P Transfer,Success,2026-08-13,16,Thursday,1k-10k,2713.37,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN001377,CUST129,1663.86,2026-08-14 11:30:11,Hyderabad,Transfer,P2P Transfer,Success,2026-08-14,11,Friday,1k-10k,804.66,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN001629,CUST109,5875.53,2026-08-15 22:55:03,Bengaluru,Payment,Fuel,Success,2026-08-15,22,Saturday,1k-10k,2947.94,25,Low,1,Unusual city: Bengaluru,1,0,0,1,0,0
+TXN001639,CUST219,878.37,2026-08-16 12:57:22,Chennai,Payment,Online Shopping,Success,2026-08-16,12,Sunday,Under 1k,487.56,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN001754,CUST072,1130.78,2026-08-17 14:34:11,Chennai,Withdrawal,ATM,Success,2026-08-17,14,Monday,1k-10k,902.76,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN001917,CUST291,11395.78,2026-08-18 17:07:02,Delhi,Payment,Dining,Success,2026-08-18,17,Tuesday,10k-50k,7359.18,25,Low,1,Unusual city: Delhi,1,0,0,1,0,0
+TXN002072,CUST277,5431.33,2026-08-19 20:43:15,Ahmedabad,Payment,Fuel,Success,2026-08-19,20,Wednesday,1k-10k,5910.68,25,Low,1,Unusual city: Ahmedabad,1,0,0,1,0,0
+TXN002199,CUST118,599.31,2026-08-20 21:57:14,Mumbai,Withdrawal,ATM,Success,2026-08-20,21,Thursday,Under 1k,606.58,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN002473,CUST093,730.83,2026-08-23 14:54:32,Delhi,Transfer,P2P Transfer,Success,2026-08-23,14,Sunday,Under 1k,730.83,25,Low,1,Unusual city: Delhi,1,0,0,1,0,0
+TXN002695,CUST249,8616.93,2026-08-25 11:51:48,Bengaluru,Withdrawal,ATM,Success,2026-08-25,11,Tuesday,1k-10k,4462.72,25,Low,1,Unusual city: Bengaluru,1,0,0,1,0,0
+TXN002829,CUST058,684.8,2026-08-26 13:48:36,Kolkata,Transfer,P2P Transfer,Success,2026-08-26,13,Wednesday,Under 1k,844.96,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN002902,CUST093,698.45,2026-08-26 19:45:19,Chennai,Transfer,P2P Transfer,Success,2026-08-26,19,Wednesday,Under 1k,730.83,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN002928,CUST233,354.27,2026-08-27 12:32:30,Kolkata,Transfer,P2P Transfer,Success,2026-08-27,12,Thursday,Under 1k,1187.57,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN003121,CUST251,370.48,2026-08-28 20:31:34,Chennai,Transfer,P2P Transfer,Success,2026-08-28,20,Friday,Under 1k,480.78,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN003198,CUST078,7123.51,2026-08-29 16:17:15,Chennai,Transfer,P2P Transfer,Success,2026-08-29,16,Saturday,1k-10k,6032.41,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN003261,CUST191,735.38,2026-08-29 22:01:44,Mumbai,Payment,Dining,Success,2026-08-29,22,Saturday,Under 1k,708.02,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN003573,CUST255,808.78,2026-09-01 16:52:37,Mumbai,Withdrawal,ATM,Success,2026-09-01,16,Tuesday,Under 1k,746.99,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN003650,CUST003,973.68,2026-09-02 13:20:30,Kolkata,Payment,Fuel,Success,2026-09-02,13,Wednesday,Under 1k,674.96,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN003656,CUST028,2832.1,2026-09-02 14:13:36,Kolkata,Transfer,P2P Transfer,Success,2026-09-02,14,Wednesday,1k-10k,1618.58,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN003669,CUST263,1980.63,2026-09-02 15:26:58,Delhi,Withdrawal,ATM,Success,2026-09-02,15,Wednesday,1k-10k,2396.56,25,Low,1,Unusual city: Delhi,1,0,0,1,0,0
+TXN003688,CUST184,522.27,2026-09-02 16:50:33,Mumbai,Payment,Groceries,Success,2026-09-02,16,Wednesday,Under 1k,470.11,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN003718,CUST114,4852.04,2026-09-02 18:39:23,Bengaluru,Transfer,P2P Transfer,Success,2026-09-02,18,Wednesday,1k-10k,6043.18,25,Low,1,Unusual city: Bengaluru,1,0,0,1,0,0
+TXN003793,CUST239,4228.69,2026-09-03 14:55:36,Kolkata,Payment,Online Shopping,Success,2026-09-03,14,Thursday,1k-10k,2989.6,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN003861,CUST225,3534.78,2026-09-04 04:51:15,Delhi,Transfer,P2P Transfer,Success,2026-09-04,4,Friday,1k-10k,2796.29,25,Low,1,Unusual city: Delhi,1,0,0,1,0,0
+TXN003978,CUST018,388.82,2026-09-05 13:53:32,Hyderabad,Payment,Travel,Success,2026-09-05,13,Saturday,Under 1k,539.59,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN004177,CUST016,15926.88,2026-09-06 22:28:24,Mumbai,Payment,Entertainment,Success,2026-09-06,22,Sunday,10k-50k,7650.73,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN004208,CUST292,1610.92,2026-09-07 13:12:38,Pune,Transfer,P2P Transfer,Success,2026-09-07,13,Monday,1k-10k,2202.98,25,Low,1,Unusual city: Pune,1,0,0,1,0,0
+TXN004342,CUST204,6550.05,2026-09-08 16:13:43,Pune,Transfer,P2P Transfer,Success,2026-09-08,16,Tuesday,1k-10k,6478.92,25,Low,1,Unusual city: Pune,1,0,0,1,0,0
+TXN004387,CUST284,1200.33,2026-09-08 19:52:34,Chennai,Withdrawal,ATM,Success,2026-09-08,19,Tuesday,1k-10k,1421.92,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN004444,CUST280,1338.0,2026-09-09 14:36:27,Hyderabad,Transfer,P2P Transfer,Success,2026-09-09,14,Wednesday,1k-10k,6032.02,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN004455,CUST082,816.72,2026-09-09 15:38:18,Bengaluru,Transfer,P2P Transfer,Success,2026-09-09,15,Wednesday,Under 1k,551.36,25,Low,1,Unusual city: Bengaluru,1,0,0,1,0,0
+TXN004469,CUST281,8256.65,2026-09-09 16:37:51,Mumbai,Payment,Fuel,Success,2026-09-09,16,Wednesday,1k-10k,8152.38,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN004697,CUST133,4485.95,2026-09-11 15:34:05,Chennai,Payment,Fuel,Success,2026-09-11,15,Friday,1k-10k,5067.21,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN004847,CUST294,17383.17,2026-09-12 19:40:59,Mumbai,Payment,Travel,Success,2026-09-12,19,Saturday,10k-50k,8827.22,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN004848,CUST226,4039.89,2026-09-12 19:46:02,Bengaluru,Transfer,P2P Transfer,Success,2026-09-12,19,Saturday,1k-10k,2089.26,25,Low,1,Unusual city: Bengaluru,1,0,0,1,0,0
+TXN005032,CUST186,434.36,2026-09-14 16:58:17,Delhi,Payment,Online Shopping,Success,2026-09-14,16,Monday,Under 1k,434.36,25,Low,1,Unusual city: Delhi,1,0,0,1,0,0
+TXN005087,CUST120,1717.55,2026-09-14 22:44:22,Mumbai,Payment,Utilities,Success,2026-09-14,22,Monday,1k-10k,1688.61,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN005101,CUST185,1914.62,2026-09-15 10:43:21,Mumbai,Withdrawal,ATM,Success,2026-09-15,10,Tuesday,1k-10k,2360.18,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN005187,CUST249,6901.91,2026-09-16 12:48:07,Chennai,Payment,Fuel,Failed,2026-09-16,12,Wednesday,1k-10k,4462.72,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN005206,CUST126,1419.91,2026-09-16 15:33:54,Chennai,Transfer,P2P Transfer,Success,2026-09-16,15,Wednesday,1k-10k,1447.71,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN005323,CUST171,3814.04,2026-09-17 16:14:28,Delhi,Payment,Travel,Success,2026-09-17,16,Thursday,1k-10k,6539.34,25,Low,1,Unusual city: Delhi,1,0,0,1,0,0
+TXN005328,CUST267,2119.05,2026-09-17 16:33:11,Chennai,Payment,Utilities,Success,2026-09-17,16,Thursday,1k-10k,1567.68,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN005333,CUST087,9677.75,2026-09-17 16:41:38,Ahmedabad,Payment,Online Shopping,Success,2026-09-17,16,Thursday,1k-10k,5707.86,25,Low,1,Unusual city: Ahmedabad,1,0,0,1,0,0
+TXN005403,CUST088,884.7,2026-09-18 14:24:27,Pune,Payment,Entertainment,Success,2026-09-18,14,Friday,Under 1k,1408.48,25,Low,1,Unusual city: Pune,1,0,0,1,0,0
+TXN005439,CUST022,2810.71,2026-09-18 17:23:32,Mumbai,Transfer,P2P Transfer,Success,2026-09-18,17,Friday,1k-10k,1965.8,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN005672,CUST138,814.26,2026-09-20 21:12:31,Ahmedabad,Transfer,P2P Transfer,Success,2026-09-20,21,Sunday,Under 1k,651.54,25,Low,1,Unusual city: Ahmedabad,1,0,0,1,0,0
+TXN005707,CUST090,438.93,2026-09-21 14:20:45,Mumbai,Transfer,P2P Transfer,Success,2026-09-21,14,Monday,Under 1k,439.12,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN005712,CUST128,1629.41,2026-09-21 14:45:44,Hyderabad,Payment,Entertainment,Success,2026-09-21,14,Monday,1k-10k,803.69,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN005730,CUST110,4164.36,2026-09-21 16:06:15,Kolkata,Transfer,P2P Transfer,Success,2026-09-21,16,Monday,1k-10k,6081.24,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN005740,CUST181,721.41,2026-09-21 16:47:36,Pune,Transfer,P2P Transfer,Success,2026-09-21,16,Monday,Under 1k,450.58,25,Low,1,Unusual city: Pune,1,0,0,1,0,0
+TXN005774,CUST183,2825.68,2026-09-21 19:27:03,Pune,Transfer,P2P Transfer,Success,2026-09-21,19,Monday,1k-10k,1431.62,25,Low,1,Unusual city: Pune,1,0,0,1,0,0
+TXN005916,CUST244,1661.69,2026-09-23 14:15:02,Bengaluru,Withdrawal,ATM,Success,2026-09-23,14,Wednesday,1k-10k,1557.71,25,Low,1,Unusual city: Bengaluru,1,0,0,1,0,0
+TXN006237,CUST020,1173.57,2026-09-26 09:04:10,Hyderabad,Payment,Fuel,Success,2026-09-26,9,Saturday,1k-10k,1316.47,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN006241,CUST014,4795.21,2026-09-26 12:31:08,Ahmedabad,Transfer,P2P Transfer,Success,2026-09-26,12,Saturday,1k-10k,8716.83,25,Low,1,Unusual city: Ahmedabad,1,0,0,1,0,0
+TXN006258,CUST280,12253.87,2026-09-26 15:09:12,Pune,Transfer,P2P Transfer,Success,2026-09-26,15,Saturday,10k-50k,6032.02,25,Low,1,Unusual city: Pune,1,0,0,1,0,0
+TXN006264,CUST185,1050.6,2026-09-26 15:35:22,Chennai,Transfer,P2P Transfer,Success,2026-09-26,15,Saturday,1k-10k,2360.18,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN006487,CUST030,153.83,2026-09-28 15:52:52,Ahmedabad,Transfer,P2P Transfer,Success,2026-09-28,15,Monday,Under 1k,470.96,25,Low,1,Unusual city: Ahmedabad,1,0,0,1,0,0
+TXN006546,CUST092,291.93,2026-09-28 21:36:16,Kolkata,Transfer,P2P Transfer,Success,2026-09-28,21,Monday,Under 1k,1800.56,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN006731,CUST111,256.28,2026-09-30 18:45:52,Hyderabad,Transfer,P2P Transfer,Success,2026-09-30,18,Wednesday,Under 1k,485.13,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN006736,CUST203,459.23,2026-09-30 19:06:10,Mumbai,Payment,Entertainment,Success,2026-09-30,19,Wednesday,Under 1k,1136.63,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN006744,CUST277,5801.14,2026-09-30 19:27:54,Kolkata,Transfer,P2P Transfer,Success,2026-09-30,19,Wednesday,1k-10k,5910.68,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN006874,CUST233,1211.03,2026-10-02 10:49:17,Hyderabad,Transfer,P2P Transfer,Success,2026-10-02,10,Friday,1k-10k,1187.57,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN006968,CUST251,1242.87,2026-10-02 22:37:59,Mumbai,Payment,Healthcare,Success,2026-10-02,22,Friday,1k-10k,480.78,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN007136,CUST271,471.07,2026-10-04 17:07:25,Kolkata,Withdrawal,ATM,Success,2026-10-04,17,Sunday,Under 1k,632.16,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN007223,CUST090,268.21,2026-10-05 15:12:09,Pune,Transfer,P2P Transfer,Success,2026-10-05,15,Monday,Under 1k,439.12,25,Low,1,Unusual city: Pune,1,0,0,1,0,0
+TXN007255,CUST186,1872.31,2026-10-05 17:31:28,Mumbai,Payment,Utilities,Success,2026-10-05,17,Monday,1k-10k,434.36,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN007350,CUST253,972.78,2026-10-06 15:46:04,Delhi,Payment,Entertainment,Success,2026-10-06,15,Tuesday,Under 1k,1524.86,25,Low,1,Unusual city: Delhi,1,0,0,1,0,0
+TXN007453,CUST020,1862.35,2026-10-07 15:49:01,Chennai,Payment,Travel,Success,2026-10-07,15,Wednesday,1k-10k,1316.47,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN007487,CUST181,450.58,2026-10-07 18:40:20,Chennai,Transfer,P2P Transfer,Success,2026-10-07,18,Wednesday,Under 1k,450.58,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN007552,CUST059,17486.07,2026-10-08 13:26:05,Hyderabad,Transfer,P2P Transfer,Failed,2026-10-08,13,Thursday,10k-50k,9847.64,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN007639,CUST081,5822.75,2026-10-09 10:16:34,Chennai,Transfer,P2P Transfer,Success,2026-10-09,10,Friday,1k-10k,5435.18,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN007862,CUST057,3362.03,2026-10-10 21:47:56,Hyderabad,Transfer,P2P Transfer,Success,2026-10-10,21,Saturday,1k-10k,4827.7,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN007914,CUST081,4585.61,2026-10-11 15:11:03,Delhi,Transfer,P2P Transfer,Success,2026-10-11,15,Sunday,1k-10k,5435.18,25,Low,1,Unusual city: Delhi,1,0,0,1,0,0
+TXN007953,CUST197,687.59,2026-10-11 18:03:52,Chennai,Transfer,P2P Transfer,Success,2026-10-11,18,Sunday,Under 1k,585.86,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN007983,CUST026,3918.16,2026-10-11 20:36:13,Hyderabad,Transfer,P2P Transfer,Success,2026-10-11,20,Sunday,1k-10k,8197.59,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN008036,CUST206,831.08,2026-10-12 14:03:04,Hyderabad,Payment,Entertainment,Success,2026-10-12,14,Monday,Under 1k,2308.77,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN008037,CUST219,394.53,2026-10-12 14:04:07,Chennai,Withdrawal,ATM,Success,2026-10-12,14,Monday,Under 1k,487.56,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN008115,CUST202,376.65,2026-10-12 21:25:09,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-12,21,Monday,Under 1k,1926.16,25,Low,1,Unusual city: Ahmedabad,1,0,0,1,0,0
+TXN008182,CUST262,2999.12,2026-10-13 17:13:12,Chennai,Transfer,P2P Transfer,Success,2026-10-13,17,Tuesday,1k-10k,3210.33,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN008208,CUST257,2426.64,2026-10-13 19:54:20,Pune,Withdrawal,ATM,Success,2026-10-13,19,Tuesday,1k-10k,2721.72,25,Low,1,Unusual city: Pune,1,0,0,1,0,0
+TXN008255,CUST242,813.5,2026-10-14 15:02:29,Hyderabad,Transfer,P2P Transfer,Success,2026-10-14,15,Wednesday,Under 1k,902.76,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN008370,CUST062,4547.9,2026-10-15 15:28:08,Bengaluru,Transfer,P2P Transfer,Success,2026-10-15,15,Thursday,1k-10k,4105.95,25,Low,1,Unusual city: Bengaluru,1,0,0,1,0,0
+TXN008388,CUST026,5832.64,2026-10-15 16:34:03,Mumbai,Transfer,P2P Transfer,Success,2026-10-15,16,Thursday,1k-10k,8197.59,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN008445,CUST191,1500.84,2026-10-16 02:16:35,Chennai,Payment,Fuel,Success,2026-10-16,2,Friday,1k-10k,708.02,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN008477,CUST193,3775.99,2026-10-16 14:50:05,Ahmedabad,Payment,Utilities,Success,2026-10-16,14,Friday,1k-10k,1077.9,25,Low,1,Unusual city: Ahmedabad,1,0,0,1,0,0
+TXN008557,CUST025,503.27,2026-10-17 04:35:27,Chennai,Transfer,P2P Transfer,Success,2026-10-17,4,Saturday,Under 1k,651.16,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN008683,CUST245,1941.32,2026-10-18 11:51:40,Hyderabad,Transfer,P2P Transfer,Success,2026-10-18,11,Sunday,1k-10k,1666.33,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN008947,CUST171,5193.4,2026-10-20 16:16:26,Mumbai,Payment,Dining,Success,2026-10-20,16,Tuesday,1k-10k,6539.34,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN008948,CUST034,337.39,2026-10-20 16:20:33,Chennai,Withdrawal,ATM,Success,2026-10-20,16,Tuesday,Under 1k,746.3,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN009019,CUST197,685.16,2026-10-21 13:20:29,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-21,13,Wednesday,Under 1k,585.86,25,Low,1,Unusual city: Ahmedabad,1,0,0,1,0,0
+TXN009048,CUST078,4560.82,2026-10-21 16:43:15,Chennai,Payment,Dining,Failed,2026-10-21,16,Wednesday,1k-10k,6032.41,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN009064,CUST162,1591.18,2026-10-21 18:08:55,Pune,Withdrawal,ATM,Success,2026-10-21,18,Wednesday,1k-10k,1530.09,25,Low,1,Unusual city: Pune,1,0,0,1,0,0
+TXN009096,CUST164,1099.83,2026-10-22 02:32:30,Bengaluru,Payment,Online Shopping,Success,2026-10-22,2,Thursday,1k-10k,1437.53,25,Low,1,Unusual city: Bengaluru,1,0,0,1,0,0
+TXN009176,CUST289,2653.07,2026-10-22 19:15:57,Kolkata,Transfer,P2P Transfer,Success,2026-10-22,19,Thursday,1k-10k,4703.76,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN009260,CUST044,1145.72,2026-10-23 16:28:10,Delhi,Withdrawal,ATM,Success,2026-10-23,16,Friday,1k-10k,1063.59,25,Low,1,Unusual city: Delhi,1,0,0,1,0,0
+TXN009318,CUST037,1673.3,2026-10-24 00:31:17,Pune,Payment,Utilities,Success,2026-10-24,0,Saturday,1k-10k,911.46,25,Low,1,Unusual city: Pune,1,0,0,1,0,0
+TXN009359,CUST188,1606.8,2026-10-24 15:31:26,Chennai,Transfer,P2P Transfer,Success,2026-10-24,15,Saturday,1k-10k,2203.02,25,Low,1,Unusual city: Chennai,1,0,0,1,0,0
+TXN009488,CUST079,2478.29,2026-10-25 15:32:20,Pune,Withdrawal,ATM,Success,2026-10-25,15,Sunday,1k-10k,6018.55,25,Low,1,Unusual city: Pune,1,0,0,1,0,0
+TXN009501,CUST188,2561.94,2026-10-25 16:26:48,Kolkata,Transfer,P2P Transfer,Success,2026-10-25,16,Sunday,1k-10k,2203.02,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN009527,CUST283,1840.99,2026-10-25 18:51:53,Mumbai,Payment,Groceries,Success,2026-10-25,18,Sunday,1k-10k,1750.95,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN009533,CUST260,3462.36,2026-10-25 19:26:47,Bengaluru,Transfer,P2P Transfer,Success,2026-10-25,19,Sunday,1k-10k,2556.37,25,Low,1,Unusual city: Bengaluru,1,0,0,1,0,0
+TXN009558,CUST292,1624.14,2026-10-26 11:26:47,Kolkata,Payment,Entertainment,Success,2026-10-26,11,Monday,1k-10k,2202.98,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN009605,CUST152,1730.83,2026-10-26 16:59:14,Pune,Transfer,P2P Transfer,Success,2026-10-26,16,Monday,1k-10k,2134.74,25,Low,1,Unusual city: Pune,1,0,0,1,0,0
+TXN009611,CUST138,555.27,2026-10-26 17:23:29,Mumbai,Payment,Groceries,Success,2026-10-26,17,Monday,Under 1k,651.54,25,Low,1,Unusual city: Mumbai,1,0,0,1,0,0
+TXN009641,CUST270,2588.15,2026-10-26 21:18:10,Hyderabad,Transfer,P2P Transfer,Success,2026-10-26,21,Monday,1k-10k,1754.52,25,Low,1,Unusual city: Hyderabad,1,0,0,1,0,0
+TXN009689,CUST069,2656.7,2026-10-27 12:46:21,Kolkata,Transfer,P2P Transfer,Success,2026-10-27,12,Tuesday,1k-10k,1622.36,25,Low,1,Unusual city: Kolkata,1,0,0,1,0,0
+TXN009715,CUST110,7237.0,2026-10-27 15:39:27,Bengaluru,Transfer,P2P Transfer,Success,2026-10-27,15,Tuesday,1k-10k,6081.24,25,Low,1,Unusual city: Bengaluru,1,0,0,1,0,0
+TXN009880,CUST114,6943.96,2026-10-28 20:44:54,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-28,20,Wednesday,1k-10k,6043.18,25,Low,1,Unusual city: Ahmedabad,1,0,0,1,0,0
+TXN000012,CUST160,3276.22,2026-08-01 11:10:48,Delhi,Payment,Groceries,Success,2026-08-01,11,Saturday,1k-10k,9899.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN000013,CUST160,23905.63,2026-08-01 11:14:44,Delhi,Transfer,P2P Transfer,Success,2026-08-01,11,Saturday,10k-50k,9899.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN000014,CUST160,20247.53,2026-08-01 11:15:12,Delhi,Transfer,P2P Transfer,Success,2026-08-01,11,Saturday,10k-50k,9899.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN000016,CUST160,2703.08,2026-08-01 11:24:56,Delhi,Withdrawal,ATM,Success,2026-08-01,11,Saturday,1k-10k,9899.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN000017,CUST160,6396.07,2026-08-01 11:29:31,Delhi,Transfer,P2P Transfer,Success,2026-08-01,11,Saturday,1k-10k,9899.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN000018,CUST160,5788.3,2026-08-01 11:39:07,Delhi,Transfer,P2P Transfer,Success,2026-08-01,11,Saturday,1k-10k,9899.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN000019,CUST160,13573.83,2026-08-01 11:40:00,Delhi,Transfer,P2P Transfer,Success,2026-08-01,11,Saturday,10k-50k,9899.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN000200,CUST195,1507.2,2026-08-03 08:36:59,Pune,Withdrawal,ATM,Failed,2026-08-03,8,Monday,1k-10k,3482.65,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN000201,CUST195,8498.0,2026-08-03 08:41:07,Pune,Withdrawal,ATM,Failed,2026-08-03,8,Monday,1k-10k,3482.65,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN000202,CUST195,3482.56,2026-08-03 08:48:34,Pune,Transfer,P2P Transfer,Failed,2026-08-03,8,Monday,1k-10k,3482.65,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN000203,CUST195,1149.42,2026-08-03 08:49:53,Pune,Transfer,P2P Transfer,Failed,2026-08-03,8,Monday,1k-10k,3482.65,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN000928,CUST290,2964.02,2026-08-10 10:58:18,Mumbai,Transfer,P2P Transfer,Failed,2026-08-10,10,Monday,1k-10k,3275.74,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN000929,CUST290,3068.67,2026-08-10 11:04:42,Mumbai,Payment,Online Shopping,Failed,2026-08-10,11,Monday,1k-10k,3275.74,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN000930,CUST290,3265.85,2026-08-10 11:05:50,Mumbai,Transfer,P2P Transfer,Failed,2026-08-10,11,Monday,1k-10k,3275.74,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN000931,CUST290,983.44,2026-08-10 11:11:23,Mumbai,Payment,Entertainment,Failed,2026-08-10,11,Monday,Under 1k,3275.74,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN001758,CUST289,5371.23,2026-08-17 14:48:59,Delhi,Transfer,P2P Transfer,Success,2026-08-17,14,Monday,1k-10k,4703.76,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001761,CUST289,3070.16,2026-08-17 14:51:39,Delhi,Transfer,P2P Transfer,Success,2026-08-17,14,Monday,1k-10k,4703.76,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001762,CUST289,5264.42,2026-08-17 14:59:59,Delhi,Transfer,P2P Transfer,Success,2026-08-17,14,Monday,1k-10k,4703.76,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001769,CUST289,11802.16,2026-08-17 15:14:48,Delhi,Payment,Online Shopping,Success,2026-08-17,15,Monday,10k-50k,4703.76,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001770,CUST289,4556.75,2026-08-17 15:17:24,Delhi,Transfer,P2P Transfer,Success,2026-08-17,15,Monday,1k-10k,4703.76,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001771,CUST289,10048.92,2026-08-17 15:17:51,Delhi,Transfer,P2P Transfer,Success,2026-08-17,15,Monday,10k-50k,4703.76,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001772,CUST289,6544.22,2026-08-17 15:17:58,Delhi,Transfer,P2P Transfer,Success,2026-08-17,15,Monday,1k-10k,4703.76,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001952,CUST269,3271.89,2026-08-18 21:57:15,Mumbai,Transfer,P2P Transfer,Success,2026-08-18,21,Tuesday,1k-10k,3441.49,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001953,CUST269,1219.61,2026-08-18 22:00:11,Mumbai,Transfer,P2P Transfer,Success,2026-08-18,22,Tuesday,1k-10k,3441.49,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001954,CUST269,1353.88,2026-08-18 22:09:44,Mumbai,Transfer,P2P Transfer,Success,2026-08-18,22,Tuesday,1k-10k,3441.49,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001956,CUST269,1422.33,2026-08-18 22:14:48,Mumbai,Transfer,P2P Transfer,Success,2026-08-18,22,Tuesday,1k-10k,3441.49,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001958,CUST269,3425.78,2026-08-18 22:17:10,Mumbai,Payment,Travel,Success,2026-08-18,22,Tuesday,1k-10k,3441.49,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001959,CUST269,4330.12,2026-08-18 22:19:26,Mumbai,Transfer,P2P Transfer,Success,2026-08-18,22,Tuesday,1k-10k,3441.49,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001960,CUST269,2651.18,2026-08-18 22:20:13,Mumbai,Transfer,P2P Transfer,Success,2026-08-18,22,Tuesday,1k-10k,3441.49,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001961,CUST269,4990.88,2026-08-18 22:22:13,Mumbai,Transfer,P2P Transfer,Success,2026-08-18,22,Tuesday,1k-10k,3441.49,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001962,CUST269,3332.04,2026-08-18 22:22:36,Mumbai,Withdrawal,ATM,Success,2026-08-18,22,Tuesday,1k-10k,3441.49,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001963,CUST269,5490.0,2026-08-18 22:26:02,Mumbai,Payment,Fuel,Success,2026-08-18,22,Tuesday,1k-10k,3441.49,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN001964,CUST269,3585.21,2026-08-18 22:27:44,Mumbai,Transfer,P2P Transfer,Success,2026-08-18,22,Tuesday,1k-10k,3441.49,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN002182,CUST272,1896.42,2026-08-20 20:04:54,Bengaluru,Payment,Dining,Failed,2026-08-20,20,Thursday,1k-10k,1428.12,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN002183,CUST272,1297.91,2026-08-20 20:10:09,Bengaluru,Transfer,P2P Transfer,Failed,2026-08-20,20,Thursday,1k-10k,1428.12,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN002185,CUST272,2234.29,2026-08-20 20:15:00,Bengaluru,Transfer,P2P Transfer,Failed,2026-08-20,20,Thursday,1k-10k,1428.12,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN002186,CUST272,2028.78,2026-08-20 20:19:16,Bengaluru,Transfer,P2P Transfer,Failed,2026-08-20,20,Thursday,1k-10k,1428.12,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN002635,CUST074,5307.91,2026-08-24 17:39:29,Mumbai,Payment,Travel,Success,2026-08-24,17,Monday,1k-10k,5752.3,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN003105,CUST284,1090.03,2026-08-28 19:41:52,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-28,19,Friday,1k-10k,1421.92,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN003109,CUST284,2804.22,2026-08-28 19:56:46,Ahmedabad,Payment,Healthcare,Success,2026-08-28,19,Friday,1k-10k,1421.92,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN003112,CUST284,2167.63,2026-08-28 20:01:06,Ahmedabad,Payment,Fuel,Success,2026-08-28,20,Friday,1k-10k,1421.92,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN003113,CUST284,2835.15,2026-08-28 20:01:48,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-28,20,Friday,1k-10k,1421.92,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN003114,CUST284,642.5,2026-08-28 20:06:29,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-28,20,Friday,Under 1k,1421.92,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN003115,CUST284,3235.63,2026-08-28 20:07:35,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-28,20,Friday,1k-10k,1421.92,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN003116,CUST284,4373.98,2026-08-28 20:08:08,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-28,20,Friday,1k-10k,1421.92,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN003117,CUST284,1209.26,2026-08-28 20:13:50,Ahmedabad,Transfer,P2P Transfer,Success,2026-08-28,20,Friday,1k-10k,1421.92,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN004017,CUST095,4664.88,2026-09-05 17:15:41,Ahmedabad,Withdrawal,ATM,Failed,2026-09-05,17,Saturday,1k-10k,7202.72,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN004020,CUST095,8158.1,2026-09-05 17:24:29,Ahmedabad,Payment,Fuel,Failed,2026-09-05,17,Saturday,1k-10k,7202.72,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN004021,CUST095,2085.45,2026-09-05 17:24:45,Ahmedabad,Payment,Entertainment,Failed,2026-09-05,17,Saturday,1k-10k,7202.72,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN005034,CUST153,550.13,2026-09-14 17:02:06,Pune,Withdrawal,ATM,Failed,2026-09-14,17,Monday,Under 1k,442.88,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN005038,CUST153,282.4,2026-09-14 17:10:51,Pune,Transfer,P2P Transfer,Failed,2026-09-14,17,Monday,Under 1k,442.88,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN005039,CUST153,3051.09,2026-09-14 17:13:10,Pune,Payment,Groceries,Failed,2026-09-14,17,Monday,1k-10k,442.88,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN005040,CUST153,911.9,2026-09-14 17:14:00,Pune,Withdrawal,ATM,Failed,2026-09-14,17,Monday,Under 1k,442.88,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN005726,CUST286,1762.55,2026-09-21 15:56:03,Bengaluru,Payment,Dining,Success,2026-09-21,15,Monday,1k-10k,4753.51,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN005929,CUST121,3004.64,2026-09-23 15:53:06,Bengaluru,Transfer,P2P Transfer,Success,2026-09-23,15,Wednesday,1k-10k,2575.83,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN005930,CUST121,4738.42,2026-09-23 15:54:10,Bengaluru,Transfer,P2P Transfer,Success,2026-09-23,15,Wednesday,1k-10k,2575.83,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN005931,CUST121,4189.73,2026-09-23 15:57:00,Bengaluru,Transfer,P2P Transfer,Success,2026-09-23,15,Wednesday,1k-10k,2575.83,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN005934,CUST121,5938.2,2026-09-23 16:08:10,Bengaluru,Transfer,P2P Transfer,Success,2026-09-23,16,Wednesday,1k-10k,2575.83,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN005935,CUST121,1917.6,2026-09-23 16:09:02,Bengaluru,Transfer,P2P Transfer,Success,2026-09-23,16,Wednesday,1k-10k,2575.83,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN005937,CUST121,2113.37,2026-09-23 16:18:19,Bengaluru,Transfer,P2P Transfer,Success,2026-09-23,16,Wednesday,1k-10k,2575.83,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN005942,CUST121,1690.41,2026-09-23 16:25:48,Bengaluru,Transfer,P2P Transfer,Success,2026-09-23,16,Wednesday,1k-10k,2575.83,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006027,CUST005,7740.4,2026-09-24 13:41:11,Delhi,Transfer,P2P Transfer,Failed,2026-09-24,13,Thursday,1k-10k,5069.17,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN006028,CUST005,3513.01,2026-09-24 13:41:56,Delhi,Payment,Entertainment,Failed,2026-09-24,13,Thursday,1k-10k,5069.17,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN006030,CUST005,3989.08,2026-09-24 13:48:29,Delhi,Payment,Online Shopping,Failed,2026-09-24,13,Thursday,1k-10k,5069.17,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN006031,CUST005,4106.65,2026-09-24 13:52:57,Delhi,Payment,Fuel,Failed,2026-09-24,13,Thursday,1k-10k,5069.17,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN006084,CUST051,1840.68,2026-09-24 18:54:25,Mumbai,Payment,Travel,Success,2026-09-24,18,Thursday,1k-10k,632.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006085,CUST051,277.61,2026-09-24 18:55:19,Mumbai,Payment,Fuel,Success,2026-09-24,18,Thursday,Under 1k,632.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006086,CUST051,2053.84,2026-09-24 18:58:13,Mumbai,Transfer,P2P Transfer,Success,2026-09-24,18,Thursday,1k-10k,632.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006087,CUST051,1184.74,2026-09-24 19:00:02,Mumbai,Transfer,P2P Transfer,Success,2026-09-24,19,Thursday,1k-10k,632.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006089,CUST051,682.96,2026-09-24 19:04:58,Mumbai,Transfer,P2P Transfer,Success,2026-09-24,19,Thursday,Under 1k,632.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006092,CUST051,333.73,2026-09-24 19:08:23,Mumbai,Transfer,P2P Transfer,Success,2026-09-24,19,Thursday,Under 1k,632.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006094,CUST051,1838.62,2026-09-24 19:12:13,Mumbai,Payment,Travel,Success,2026-09-24,19,Thursday,1k-10k,632.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006095,CUST051,1223.76,2026-09-24 19:14:55,Mumbai,Transfer,P2P Transfer,Success,2026-09-24,19,Thursday,1k-10k,632.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006100,CUST051,1103.31,2026-09-24 19:25:06,Mumbai,Transfer,P2P Transfer,Success,2026-09-24,19,Thursday,1k-10k,632.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006101,CUST051,489.05,2026-09-24 19:28:54,Mumbai,Transfer,P2P Transfer,Success,2026-09-24,19,Thursday,Under 1k,632.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006102,CUST051,745.65,2026-09-24 19:29:26,Mumbai,Transfer,P2P Transfer,Success,2026-09-24,19,Thursday,Under 1k,632.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006103,CUST051,309.7,2026-09-24 19:30:23,Mumbai,Transfer,P2P Transfer,Success,2026-09-24,19,Thursday,Under 1k,632.2,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN006955,CUST078,6498.55,2026-10-02 20:20:04,Ahmedabad,Payment,Entertainment,Failed,2026-10-02,20,Friday,1k-10k,6032.41,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN006956,CUST078,4896.39,2026-10-02 20:21:26,Ahmedabad,Transfer,P2P Transfer,Failed,2026-10-02,20,Friday,1k-10k,6032.41,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN006957,CUST078,7177.95,2026-10-02 20:25:28,Ahmedabad,Transfer,P2P Transfer,Failed,2026-10-02,20,Friday,1k-10k,6032.41,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN007084,CUST178,2659.02,2026-10-04 11:51:32,Ahmedabad,Withdrawal,ATM,Success,2026-10-04,11,Sunday,1k-10k,2491.01,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007085,CUST178,3018.18,2026-10-04 12:06:07,Ahmedabad,Payment,Dining,Success,2026-10-04,12,Sunday,1k-10k,2491.01,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007086,CUST178,2118.9,2026-10-04 12:10:40,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-04,12,Sunday,1k-10k,2491.01,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007087,CUST178,2501.65,2026-10-04 12:12:49,Ahmedabad,Payment,Fuel,Success,2026-10-04,12,Sunday,1k-10k,2491.01,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007088,CUST178,3776.89,2026-10-04 12:21:12,Ahmedabad,Payment,Fuel,Success,2026-10-04,12,Sunday,1k-10k,2491.01,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007089,CUST178,4108.54,2026-10-04 12:23:00,Ahmedabad,Payment,Entertainment,Success,2026-10-04,12,Sunday,1k-10k,2491.01,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007526,CUST026,11082.89,2026-10-08 10:35:38,Delhi,Transfer,P2P Transfer,Success,2026-10-08,10,Thursday,10k-50k,8197.59,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007527,CUST026,8810.87,2026-10-08 10:38:16,Delhi,Transfer,P2P Transfer,Success,2026-10-08,10,Thursday,1k-10k,8197.59,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007528,CUST026,9738.62,2026-10-08 10:41:38,Delhi,Transfer,P2P Transfer,Success,2026-10-08,10,Thursday,1k-10k,8197.59,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007529,CUST026,6799.71,2026-10-08 10:46:28,Delhi,Payment,Utilities,Success,2026-10-08,10,Thursday,1k-10k,8197.59,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007531,CUST026,2840.12,2026-10-08 10:51:13,Delhi,Payment,Online Shopping,Success,2026-10-08,10,Thursday,1k-10k,8197.59,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007532,CUST026,13468.05,2026-10-08 10:51:44,Delhi,Transfer,P2P Transfer,Success,2026-10-08,10,Thursday,10k-50k,8197.59,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007533,CUST026,3457.04,2026-10-08 10:53:50,Delhi,Transfer,P2P Transfer,Success,2026-10-08,10,Thursday,1k-10k,8197.59,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007534,CUST026,11396.27,2026-10-08 10:59:54,Delhi,Transfer,P2P Transfer,Success,2026-10-08,10,Thursday,10k-50k,8197.59,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN007536,CUST026,7584.3,2026-10-08 11:02:10,Delhi,Transfer,P2P Transfer,Success,2026-10-08,11,Thursday,1k-10k,8197.59,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008562,CUST213,817.82,2026-10-17 11:25:04,Ahmedabad,Withdrawal,ATM,Failed,2026-10-17,11,Saturday,Under 1k,896.18,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN008563,CUST213,458.39,2026-10-17 11:25:21,Ahmedabad,Payment,Healthcare,Failed,2026-10-17,11,Saturday,Under 1k,896.18,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN008564,CUST213,936.58,2026-10-17 11:26:17,Ahmedabad,Payment,Online Shopping,Failed,2026-10-17,11,Saturday,Under 1k,896.18,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN008654,CUST201,428.54,2026-10-17 21:31:04,Bengaluru,Payment,Online Shopping,Success,2026-10-17,21,Saturday,Under 1k,1266.62,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008655,CUST201,856.94,2026-10-17 21:34:18,Bengaluru,Transfer,P2P Transfer,Success,2026-10-17,21,Saturday,Under 1k,1266.62,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008659,CUST201,618.29,2026-10-17 21:36:39,Bengaluru,Transfer,P2P Transfer,Success,2026-10-17,21,Saturday,Under 1k,1266.62,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008660,CUST201,2214.25,2026-10-17 21:40:48,Bengaluru,Transfer,P2P Transfer,Success,2026-10-17,21,Saturday,1k-10k,1266.62,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008662,CUST201,2852.61,2026-10-17 21:43:43,Bengaluru,Transfer,P2P Transfer,Success,2026-10-17,21,Saturday,1k-10k,1266.62,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008663,CUST201,606.12,2026-10-17 21:44:54,Bengaluru,Payment,Utilities,Success,2026-10-17,21,Saturday,Under 1k,1266.62,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008664,CUST201,1443.28,2026-10-17 21:48:40,Bengaluru,Transfer,P2P Transfer,Success,2026-10-17,21,Saturday,1k-10k,1266.62,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008665,CUST201,1721.51,2026-10-17 21:52:12,Bengaluru,Transfer,P2P Transfer,Success,2026-10-17,21,Saturday,1k-10k,1266.62,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008666,CUST201,1089.96,2026-10-17 22:01:54,Bengaluru,Payment,Dining,Success,2026-10-17,22,Saturday,1k-10k,1266.62,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008779,CUST038,3831.28,2026-10-19 10:14:46,Hyderabad,Transfer,P2P Transfer,Success,2026-10-19,10,Monday,1k-10k,5680.6,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008780,CUST038,3717.69,2026-10-19 10:17:21,Hyderabad,Payment,Entertainment,Success,2026-10-19,10,Monday,1k-10k,5680.6,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008781,CUST038,1875.0,2026-10-19 10:19:17,Hyderabad,Transfer,P2P Transfer,Success,2026-10-19,10,Monday,1k-10k,5680.6,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008783,CUST038,5762.57,2026-10-19 10:25:09,Hyderabad,Transfer,P2P Transfer,Success,2026-10-19,10,Monday,1k-10k,5680.6,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008784,CUST038,5520.87,2026-10-19 10:25:12,Hyderabad,Payment,Utilities,Success,2026-10-19,10,Monday,1k-10k,5680.6,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008785,CUST038,8656.07,2026-10-19 10:31:44,Hyderabad,Payment,Healthcare,Success,2026-10-19,10,Monday,1k-10k,5680.6,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008786,CUST038,7240.19,2026-10-19 10:33:08,Hyderabad,Payment,Dining,Success,2026-10-19,10,Monday,1k-10k,5680.6,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008787,CUST038,14001.28,2026-10-19 10:41:21,Hyderabad,Withdrawal,ATM,Success,2026-10-19,10,Monday,10k-50k,5680.6,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008788,CUST038,9406.81,2026-10-19 10:42:52,Hyderabad,Transfer,P2P Transfer,Success,2026-10-19,10,Monday,1k-10k,5680.6,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008789,CUST038,6646.58,2026-10-19 10:45:26,Hyderabad,Withdrawal,ATM,Success,2026-10-19,10,Monday,1k-10k,5680.6,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN008792,CUST038,5440.12,2026-10-19 11:20:19,Hyderabad,Payment,Travel,Success,2026-10-19,11,Monday,1k-10k,5680.6,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009437,CUST017,3484.81,2026-10-25 09:34:48,Kolkata,Payment,Fuel,Success,2026-10-25,9,Sunday,1k-10k,3805.67,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009438,CUST017,2128.6,2026-10-25 09:40:42,Kolkata,Transfer,P2P Transfer,Success,2026-10-25,9,Sunday,1k-10k,3805.67,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009439,CUST017,6244.08,2026-10-25 09:42:24,Kolkata,Transfer,P2P Transfer,Success,2026-10-25,9,Sunday,1k-10k,3805.67,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009442,CUST017,8350.81,2026-10-25 09:52:41,Kolkata,Transfer,P2P Transfer,Success,2026-10-25,9,Sunday,1k-10k,3805.67,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009443,CUST017,7793.16,2026-10-25 09:55:47,Kolkata,Payment,Dining,Success,2026-10-25,9,Sunday,1k-10k,3805.67,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009444,CUST017,2154.29,2026-10-25 09:58:04,Kolkata,Transfer,P2P Transfer,Success,2026-10-25,9,Sunday,1k-10k,3805.67,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009445,CUST017,9293.21,2026-10-25 10:00:19,Kolkata,Payment,Travel,Success,2026-10-25,10,Sunday,1k-10k,3805.67,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009446,CUST017,2481.06,2026-10-25 10:00:37,Kolkata,Transfer,P2P Transfer,Success,2026-10-25,10,Sunday,1k-10k,3805.67,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009447,CUST017,9524.16,2026-10-25 10:00:50,Kolkata,Payment,Online Shopping,Success,2026-10-25,10,Sunday,1k-10k,3805.67,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009582,CUST153,794.76,2026-10-26 15:15:47,Pune,Transfer,P2P Transfer,Failed,2026-10-26,15,Monday,Under 1k,442.88,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN009583,CUST153,549.35,2026-10-26 15:15:50,Pune,Transfer,P2P Transfer,Failed,2026-10-26,15,Monday,Under 1k,442.88,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN009584,CUST153,1305.94,2026-10-26 15:19:31,Pune,Transfer,P2P Transfer,Failed,2026-10-26,15,Monday,1k-10k,442.88,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN009657,CUST265,10510.34,2026-10-27 08:57:36,Delhi,Payment,Healthcare,Failed,2026-10-27,8,Tuesday,10k-50k,4955.96,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN009658,CUST265,1557.59,2026-10-27 09:06:44,Delhi,Payment,Healthcare,Failed,2026-10-27,9,Tuesday,1k-10k,4955.96,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN009659,CUST265,3685.41,2026-10-27 09:10:46,Delhi,Transfer,P2P Transfer,Failed,2026-10-27,9,Tuesday,1k-10k,4955.96,20,Low,1,3+ failed attempts within 30 minutes,1,0,0,0,0,1
+TXN009670,CUST025,396.5,2026-10-27 12:10:32,Ahmedabad,Payment,Groceries,Success,2026-10-27,12,Tuesday,Under 1k,651.16,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009671,CUST025,798.55,2026-10-27 12:11:12,Ahmedabad,Withdrawal,ATM,Success,2026-10-27,12,Tuesday,Under 1k,651.16,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009674,CUST025,822.82,2026-10-27 12:17:37,Ahmedabad,Payment,Utilities,Success,2026-10-27,12,Tuesday,Under 1k,651.16,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009677,CUST025,430.29,2026-10-27 12:29:59,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-27,12,Tuesday,Under 1k,651.16,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009678,CUST025,153.77,2026-10-27 12:30:11,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-27,12,Tuesday,Under 1k,651.16,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009679,CUST025,588.35,2026-10-27 12:32:21,Ahmedabad,Payment,Entertainment,Success,2026-10-27,12,Tuesday,Under 1k,651.16,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009680,CUST025,942.18,2026-10-27 12:33:23,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-27,12,Tuesday,Under 1k,651.16,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009681,CUST025,360.06,2026-10-27 12:35:51,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-27,12,Tuesday,Under 1k,651.16,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009682,CUST025,614.02,2026-10-27 12:36:53,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-27,12,Tuesday,Under 1k,651.16,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009683,CUST025,1078.99,2026-10-27 12:38:17,Ahmedabad,Withdrawal,ATM,Success,2026-10-27,12,Tuesday,1k-10k,651.16,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009684,CUST025,981.37,2026-10-27 12:38:28,Ahmedabad,Withdrawal,ATM,Success,2026-10-27,12,Tuesday,Under 1k,651.16,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN009688,CUST025,780.35,2026-10-27 12:44:14,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-27,12,Tuesday,Under 1k,651.16,20,Low,1,5+ transactions within 60 minutes,1,0,1,0,0,0
+TXN000003,CUST204,16339.15,2026-08-01 01:11:09,Chennai,Transfer,P2P Transfer,Success,2026-08-01,1,Saturday,10k-50k,6478.92,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN000111,CUST193,2399.02,2026-08-02 00:46:23,Chennai,Payment,Healthcare,Success,2026-08-02,0,Sunday,1k-10k,1077.9,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN000311,CUST149,599.11,2026-08-04 02:29:16,Mumbai,Transfer,P2P Transfer,Success,2026-08-04,2,Tuesday,Under 1k,637.75,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN000508,CUST268,1854.73,2026-08-06 03:25:17,Chennai,Transfer,P2P Transfer,Success,2026-08-06,3,Thursday,1k-10k,1802.8,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN000616,CUST023,4623.08,2026-08-07 04:04:53,Mumbai,Transfer,P2P Transfer,Success,2026-08-07,4,Friday,1k-10k,5601.5,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN000834,CUST061,311.73,2026-08-09 02:25:19,Ahmedabad,Payment,Travel,Success,2026-08-09,2,Sunday,Under 1k,497.67,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN000835,CUST118,800.42,2026-08-09 02:29:23,Delhi,Payment,Dining,Success,2026-08-09,2,Sunday,Under 1k,606.58,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN000837,CUST186,372.47,2026-08-09 04:02:59,Bengaluru,Transfer,P2P Transfer,Success,2026-08-09,4,Sunday,Under 1k,434.36,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN001149,CUST285,322.68,2026-08-12 02:38:37,Chennai,Withdrawal,ATM,Success,2026-08-12,2,Wednesday,Under 1k,571.89,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN001365,CUST030,630.06,2026-08-14 01:33:29,Mumbai,Transfer,P2P Transfer,Success,2026-08-14,1,Friday,Under 1k,470.96,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN001367,CUST174,1072.99,2026-08-14 03:59:46,Delhi,Transfer,P2P Transfer,Success,2026-08-14,3,Friday,1k-10k,1149.2,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN001505,CUST255,733.87,2026-08-15 03:16:49,Chennai,Payment,Healthcare,Success,2026-08-15,3,Saturday,Under 1k,746.99,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN002335,CUST201,2294.61,2026-08-22 00:56:40,Bengaluru,Transfer,P2P Transfer,Success,2026-08-22,0,Saturday,1k-10k,1266.62,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN003134,CUST100,4136.27,2026-08-29 02:35:53,Delhi,Withdrawal,ATM,Success,2026-08-29,2,Saturday,1k-10k,3185.62,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN003138,CUST195,6020.23,2026-08-29 04:18:44,Pune,Transfer,P2P Transfer,Success,2026-08-29,4,Saturday,1k-10k,3482.65,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN003391,CUST039,1774.76,2026-08-31 02:31:37,Ahmedabad,Payment,Groceries,Success,2026-08-31,2,Monday,1k-10k,3167.35,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN003509,CUST082,787.62,2026-09-01 01:33:55,Mumbai,Payment,Travel,Success,2026-09-01,1,Tuesday,Under 1k,551.36,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN003623,CUST169,847.27,2026-09-02 01:18:21,Hyderabad,Withdrawal,ATM,Success,2026-09-02,1,Wednesday,Under 1k,1213.33,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN003625,CUST133,2330.41,2026-09-02 01:31:24,Pune,Payment,Entertainment,Success,2026-09-02,1,Wednesday,1k-10k,5067.21,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN003858,CUST292,2397.29,2026-09-04 03:03:20,Chennai,Payment,Fuel,Success,2026-09-04,3,Friday,1k-10k,2202.98,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN003960,CUST282,1790.52,2026-09-05 01:54:35,Mumbai,Payment,Healthcare,Success,2026-09-05,1,Saturday,1k-10k,1118.74,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN004187,CUST096,10908.19,2026-09-07 02:16:11,Hyderabad,Payment,Utilities,Success,2026-09-07,2,Monday,10k-50k,6047.58,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN004407,CUST066,1386.9,2026-09-09 01:33:24,Delhi,Transfer,P2P Transfer,Success,2026-09-09,1,Wednesday,1k-10k,2143.33,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN004766,CUST156,157.22,2026-09-12 02:59:57,Delhi,Transfer,P2P Transfer,Success,2026-09-12,2,Saturday,Under 1k,626.8,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN004872,CUST277,11520.25,2026-09-13 04:15:50,Delhi,Withdrawal,ATM,Success,2026-09-13,4,Sunday,10k-50k,5910.68,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN005176,CUST160,1495.79,2026-09-16 03:20:53,Delhi,Transfer,P2P Transfer,Success,2026-09-16,3,Wednesday,1k-10k,9899.2,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN005177,CUST034,771.42,2026-09-16 03:38:54,Hyderabad,Payment,Travel,Success,2026-09-16,3,Wednesday,Under 1k,746.3,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN005386,CUST200,1521.96,2026-09-18 02:54:44,Kolkata,Transfer,P2P Transfer,Success,2026-09-18,2,Friday,1k-10k,2470.95,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN005483,CUST040,12931.42,2026-09-19 04:42:12,Bengaluru,Payment,Fuel,Success,2026-09-19,4,Saturday,10k-50k,5298.52,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN006441,CUST119,1119.58,2026-09-28 03:03:45,Hyderabad,Transfer,P2P Transfer,Success,2026-09-28,3,Monday,1k-10k,904.89,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN006554,CUST165,12594.94,2026-09-29 00:01:37,Unknown,Transfer,P2P Transfer,Success,2026-09-29,0,Tuesday,10k-50k,7981.78,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN006762,CUST064,5215.7,2026-10-01 00:19:40,Kolkata,Transfer,P2P Transfer,Success,2026-10-01,0,Thursday,1k-10k,3162.63,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN007184,CUST285,284.29,2026-10-05 04:59:29,Chennai,Transfer,P2P Transfer,Success,2026-10-05,4,Monday,Under 1k,571.89,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN007518,CUST270,4880.25,2026-10-08 00:07:54,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-08,0,Thursday,1k-10k,1754.52,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN007519,CUST263,402.15,2026-10-08 00:18:51,Kolkata,Transfer,P2P Transfer,Success,2026-10-08,0,Thursday,Under 1k,2396.56,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN007636,CUST053,6201.01,2026-10-09 03:34:55,Bengaluru,Transfer,P2P Transfer,Success,2026-10-09,3,Friday,1k-10k,4538.68,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN007873,CUST013,3002.99,2026-10-11 02:44:43,Hyderabad,Transfer,P2P Transfer,Success,2026-10-11,2,Sunday,1k-10k,1662.3,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN008007,CUST229,4764.73,2026-10-12 03:04:27,Delhi,Transfer,P2P Transfer,Success,2026-10-12,3,Monday,1k-10k,571.08,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN008008,CUST284,1999.54,2026-10-12 04:16:00,Ahmedabad,Transfer,P2P Transfer,Success,2026-10-12,4,Monday,1k-10k,1421.92,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN008229,CUST129,1262.46,2026-10-14 03:36:28,Delhi,Withdrawal,ATM,Success,2026-10-14,3,Wednesday,1k-10k,804.66,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN008676,CUST097,326.94,2026-10-18 03:52:10,Bengaluru,Transfer,P2P Transfer,Success,2026-10-18,3,Sunday,Under 1k,722.03,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN008899,CUST032,519.77,2026-10-20 02:41:24,Bengaluru,Transfer,P2P Transfer,Success,2026-10-20,2,Tuesday,Under 1k,598.47,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN008902,CUST196,789.85,2026-10-20 04:07:33,Chennai,Transfer,P2P Transfer,Success,2026-10-20,4,Tuesday,Under 1k,924.25,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN009210,CUST202,4593.4,2026-10-23 03:35:53,Bengaluru,Payment,Travel,Success,2026-10-23,3,Friday,1k-10k,1926.16,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN009778,CUST234,955.76,2026-10-28 01:08:13,Delhi,Payment,Healthcare,Success,2026-10-28,1,Wednesday,Under 1k,729.2,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0
+TXN009897,CUST188,1300.31,2026-10-29 01:00:07,Pune,Payment,Dining,Success,2026-10-29,1,Thursday,1k-10k,2203.02,15,Low,1,Transaction between 12:00 AM and 4:59 AM,1,0,0,0,1,0

@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Static results dashboard for a rules-based transaction anomaly review queue built on synthetic data.">
+  <title>Transaction Anomaly &amp; Fraud Pattern Analyzer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="hero">
+    <nav class="nav wrap" aria-label="Page sections">
+      <span class="brand">TAA / Review Queue</span>
+      <div class="nav-links">
+        <a href="#overview">Overview</a>
+        <a href="#validation">Validation</a>
+        <a href="#investigation">Investigation</a>
+        <a href="#method">Method</a>
+        <a href="#limits">Limits</a>
+      </div>
+    </nav>
+
+    <div class="wrap hero-body">
+      <p class="eyebrow">Portfolio project · Synthetic data</p>
+      <h1>Transaction Anomaly &amp; Fraud Pattern Analyzer</h1>
+      <p class="lede">
+        A rules-based review queue for 10,000 synthetic transactions from 300 customers over 90 days.
+        Five explainable rules score each row and state why it was flagged.
+      </p>
+      <div class="hero-meta" aria-label="Technologies used">
+        <span>Python</span>
+        <span>pandas</span>
+        <span>NumPy</span>
+        <span>SQLite</span>
+        <span>10 SQL queries</span>
+        <span>5 pytest tests</span>
+      </div>
+      <div class="hero-stats" aria-label="Headline results">
+        <div><strong id="hero-total">—</strong><span>transactions</span></div>
+        <div><strong id="hero-flagged">—</strong><span>flagged for review</span></div>
+        <div><strong id="hero-precision">—</strong><span>precision</span></div>
+        <div><strong id="hero-recall">—</strong><span>recall</span></div>
+      </div>
+      <p class="hero-warning">
+        A flag means <strong>needs review</strong>, never proven fraud. Risk scores are
+        illustrative rules-based scores, not validated fraud probabilities.
+      </p>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section id="overview" class="section" aria-labelledby="overview-title">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Overview</p>
+          <h2 id="overview-title">What the queue contains</h2>
+        </div>
+        <p class="section-note">All figures are read from the generated CSVs in this deployment.</p>
+      </div>
+
+      <div class="kpi-grid" id="kpi-grid">
+        <article class="kpi">
+          <span class="kpi-label">Total transactions</span>
+          <strong class="kpi-value" id="kpi-total">—</strong>
+          <span class="kpi-note">Clean rows after 10,038 raw rows were processed</span>
+        </article>
+        <article class="kpi">
+          <span class="kpi-label">Flagged for review</span>
+          <strong class="kpi-value" id="kpi-flagged">—</strong>
+          <span class="kpi-note" id="kpi-flagged-note">At least one rule fired</span>
+        </article>
+        <article class="kpi">
+          <span class="kpi-label">Flagged share</span>
+          <strong class="kpi-value" id="kpi-flagged-pct">—</strong>
+          <span class="kpi-note">Of all clean transactions</span>
+        </article>
+        <article class="kpi">
+          <span class="kpi-label">Total value</span>
+          <strong class="kpi-value" id="kpi-total-value">—</strong>
+          <span class="kpi-note">INR, sum of all transaction amounts</span>
+        </article>
+        <article class="kpi">
+          <span class="kpi-label">Flagged value</span>
+          <strong class="kpi-value" id="kpi-flagged-value">—</strong>
+          <span class="kpi-note" id="kpi-flagged-value-note">Amount sitting in the review queue</span>
+        </article>
+      </div>
+
+      <div class="findings-grid" aria-label="Key findings">
+        <article class="finding finding-warn">
+          <span class="finding-label">Main false-positive source</span>
+          <strong id="finding-fp-value">—</strong>
+          <p id="finding-fp-note">—</p>
+        </article>
+        <article class="finding finding-ok">
+          <span class="finding-label">Strongest rules</span>
+          <strong id="finding-perfect-value">—</strong>
+          <p id="finding-perfect-note">—</p>
+        </article>
+        <article class="finding finding-warn">
+          <span class="finding-label">Weakest planted type</span>
+          <strong id="finding-weak-value">—</strong>
+          <p id="finding-weak-note">—</p>
+        </article>
+        <article class="finding finding-blue">
+          <span class="finding-label">Risk concentration</span>
+          <strong id="finding-risk-value">—</strong>
+          <p id="finding-risk-note">—</p>
+        </article>
+      </div>
+
+      <div class="panel chart-panel">
+        <div class="panel-head">
+          <div>
+            <h3>Daily activity</h3>
+            <p>Total transactions and flagged transactions for each of the 90 days.</p>
+          </div>
+          <div class="legend-note"><span class="dot dot-total"></span>Total <span class="dot dot-flagged"></span>Flagged</div>
+        </div>
+        <div class="chart-box chart-wide">
+          <canvas id="daily-chart" role="img" aria-label="Line chart of daily total and flagged transaction counts"></canvas>
+        </div>
+      </div>
+
+      <div class="grid-3">
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h3>Risk level of flagged rows</h3>
+              <p>Only rows with at least one rule are shown.</p>
+            </div>
+          </div>
+          <div class="chart-box">
+            <canvas id="risk-chart" role="img" aria-label="Doughnut chart of flagged rows by risk level"></canvas>
+          </div>
+          <p class="note" id="risk-note">—</p>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h3>Flags by rule</h3>
+              <p>How often each of the five rules fired.</p>
+            </div>
+          </div>
+          <div class="chart-box">
+            <canvas id="rule-chart" role="img" aria-label="Bar chart of flag counts by rule"></canvas>
+          </div>
+          <p class="note">Counts overlap. One transaction can trigger more than one rule, so these do not add to the flagged total.</p>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h3>Risk score distribution</h3>
+              <p>Flagged rows by exact score.</p>
+            </div>
+          </div>
+          <div class="chart-box">
+            <canvas id="score-chart" role="img" aria-label="Bar chart of flagged rows by exact risk score"></canvas>
+          </div>
+          <p class="note">Blue is Low, amber is Medium and red is High. Scores are fixed rule points, capped at 100, so a single rule cannot reach High.</p>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head">
+          <div>
+            <h3>Transactions by location</h3>
+            <p><code>Unknown</code> is kept as missing data, not guessed.</p>
+          </div>
+        </div>
+        <div class="chart-box chart-tall">
+          <canvas id="location-chart" role="img" aria-label="Bar chart of transaction counts by location"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section id="validation" class="section" aria-labelledby="validation-title">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Validation</p>
+          <h2 id="validation-title">Checked against the hidden answer key</h2>
+        </div>
+        <p class="section-note">400 anomalies were planted in the synthetic data.</p>
+      </div>
+
+      <div class="callout callout-warn">
+        <strong>This validation is circular.</strong>
+        I injected the anomalies and wrote the rules. The numbers show that the rules recover planted
+        patterns. They do not prove real-world fraud detection performance.
+      </div>
+
+      <div class="metric-grid">
+        <article class="metric">
+          <span>Precision</span>
+          <strong id="metric-precision">—</strong>
+          <small>Of flagged rows, how many were planted anomalies</small>
+        </article>
+        <article class="metric">
+          <span>Recall</span>
+          <strong id="metric-recall">—</strong>
+          <small>Of planted anomalies, how many were flagged</small>
+        </article>
+        <article class="metric">
+          <span>F1</span>
+          <strong id="metric-f1">—</strong>
+          <small>Balance of precision and recall</small>
+        </article>
+        <article class="metric">
+          <span>Flagged rows</span>
+          <strong id="metric-flagged">—</strong>
+          <small>Out of 10,000 clean rows</small>
+        </article>
+      </div>
+
+      <div class="grid-2 grid-validation">
+        <div class="panel">
+          <h3>Confusion matrix</h3>
+          <table class="matrix">
+            <caption class="sr-only">Confusion matrix comparing flags with planted anomalies</caption>
+            <thead>
+              <tr><th scope="col"></th><th scope="col">Planted anomaly</th><th scope="col">Normal</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Flagged</th><td class="cell-tp" id="cell-tp">—</td><td class="cell-fp" id="cell-fp">—</td></tr>
+              <tr><th scope="row">Not flagged</th><td class="cell-fn" id="cell-fn">—</td><td class="cell-tn" id="cell-tn">—</td></tr>
+            </tbody>
+          </table>
+          <p class="note">True positives, false positives, false negatives and true negatives.</p>
+        </div>
+
+        <div class="panel">
+          <h3>Recall by planted type</h3>
+          <div class="chart-box chart-small">
+            <canvas id="type-recall-chart" role="img" aria-label="Bar chart of recall by planted anomaly type"></canvas>
+          </div>
+          <div class="table-wrap table-short">
+            <table>
+              <caption class="sr-only">Recall by planted anomaly type</caption>
+              <thead>
+                <tr><th scope="col">Type</th><th scope="col" class="num">Detected</th><th scope="col" class="num">Injected</th><th scope="col" class="num">Recall</th></tr>
+              </thead>
+              <tbody id="type-recall-body">
+                <tr><td colspan="4">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="note">Combined-type rows count once under each base type, so the injected counts add to more than 400.</p>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="panel">
+          <h3>False positives by exact rule combination</h3>
+          <div class="table-wrap table-short">
+            <table>
+              <caption class="sr-only">False positives by exact rule combination</caption>
+              <thead><tr><th scope="col">Combination</th><th scope="col" class="num">Rows</th></tr></thead>
+              <tbody id="fp-combo-body">
+                <tr><td colspan="2">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="note">Each false-positive row is counted once in this table.</p>
+        </div>
+
+        <div class="panel">
+          <h3>False positives by rule</h3>
+          <div class="table-wrap table-short">
+            <table>
+              <caption class="sr-only">False positives by rule, overlapping counts</caption>
+              <thead><tr><th scope="col">Rule</th><th scope="col" class="num">Rows</th></tr></thead>
+              <tbody id="fp-rule-body">
+                <tr><td colspan="2">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="note">A row can trigger more than one rule, so these counts overlap.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="investigation" class="section" aria-labelledby="investigation-title">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Investigation</p>
+          <h2 id="investigation-title">The flagged review queue</h2>
+        </div>
+        <p class="section-note">Filter by risk, location, type or text. The table is sorted by score.</p>
+      </div>
+
+      <div class="panel">
+        <form class="filters" id="filters" role="search" aria-label="Filter flagged transactions">
+          <div class="filter-field filter-search">
+            <label for="filter-text">Search</label>
+            <input id="filter-text" type="search" placeholder="Transaction ID, customer, reason…" autocomplete="off">
+          </div>
+          <div class="filter-field">
+            <label for="filter-risk">Risk level</label>
+            <select id="filter-risk"><option value="">All</option></select>
+          </div>
+          <div class="filter-field">
+            <label for="filter-location">Location</label>
+            <select id="filter-location"><option value="">All</option></select>
+          </div>
+          <div class="filter-field">
+            <label for="filter-type">Transaction type</label>
+            <select id="filter-type"><option value="">All</option></select>
+          </div>
+          <button type="reset" class="reset-button" id="reset-filters">Reset</button>
+        </form>
+
+        <div class="table-meta">
+          <span id="table-count" role="status">Loading…</span>
+          <div class="table-actions">
+            <span class="table-hint">Scores are review priorities, not probabilities. Hover a reason for the full text.</span>
+            <button type="button" class="download-button" id="download-csv">Download flagged CSV</button>
+          </div>
+        </div>
+
+        <div class="table-wrap table-tall">
+          <table id="flagged-table">
+            <caption class="sr-only">Flagged transactions with rule reasons</caption>
+            <thead>
+              <tr>
+                <th scope="col" class="sortable" data-sort="Transaction_ID" data-arrow="↕" aria-sort="none">Transaction</th>
+                <th scope="col" class="sortable" data-sort="Transaction_Time" data-arrow="↕" aria-sort="none">Time</th>
+                <th scope="col" class="sortable" data-sort="Customer_ID" data-arrow="↕" aria-sort="none">Customer</th>
+                <th scope="col" class="num sortable" data-sort="Amount" data-arrow="↕" aria-sort="none">Amount (INR)</th>
+                <th scope="col" class="sortable" data-sort="Location" data-arrow="↕" aria-sort="none">Location</th>
+                <th scope="col" class="sortable" data-sort="Transaction_Type" data-arrow="↕" aria-sort="none">Type</th>
+                <th scope="col" class="num sortable" data-sort="Risk_Score" data-arrow="↕" aria-sort="none">Score</th>
+                <th scope="col" class="sortable" data-sort="Risk_Level" data-arrow="↕" aria-sort="none">Risk</th>
+                <th scope="col">Reasons</th>
+              </tr>
+            </thead>
+            <tbody id="flagged-body">
+              <tr><td colspan="9">Loading…</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note table-scroll-note">Scroll the table sideways to read the reasons on narrow screens.</p>
+
+        <div class="pagination" id="pagination" aria-label="Flagged table pages">
+          <button type="button" id="prev-page">Previous</button>
+          <span id="page-info">Page 1</span>
+          <button type="button" id="next-page">Next</button>
+          <label for="page-size">Rows per page</label>
+          <select id="page-size">
+            <option value="25">25</option>
+            <option value="50" selected>50</option>
+            <option value="100">100</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section id="method" class="section" aria-labelledby="method-title">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Method</p>
+          <h2 id="method-title">Five rules, fixed points</h2>
+        </div>
+        <p class="section-note">The customer baseline uses that customer's successful transactions.</p>
+      </div>
+
+      <div class="panel">
+        <div class="table-wrap table-short">
+          <table>
+            <caption class="sr-only">Detection rules, conditions and points</caption>
+            <thead>
+              <tr><th scope="col">Rule</th><th scope="col">Condition</th><th scope="col" class="num">Points</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>High amount</td><td>Amount is more than 3× the customer's median successful amount and above INR 5,000</td><td class="num">30</td></tr>
+              <tr><td>High frequency</td><td>The row sits in a window of 5 or more transactions by the same customer within 60 minutes</td><td class="num">20</td></tr>
+              <tr><td>Unusual city</td><td>City is not the customer's home city and is under 5% of their successful transactions</td><td class="num">25</td></tr>
+              <tr><td>Night timing</td><td>Transaction is 00:00–04:59 and under 10% of the customer's successful transactions happen then</td><td class="num">15</td></tr>
+              <tr><td>Repeated failures</td><td>The failed row sits in a window of 3 or more failed attempts within 30 minutes</td><td class="num">20</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="rule-notes">
+          <p><strong>Score:</strong> sum of points for rules that fired, capped at 100.</p>
+          <p><strong>Levels:</strong> None 0, Low 1–29, Medium 30–59, High 60+.</p>
+          <p><strong>Not used:</strong> no machine learning, no black-box model, no external data.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="limits" class="section" aria-labelledby="limits-title">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Limits</p>
+          <h2 id="limits-title">What this does not prove</h2>
+        </div>
+      </div>
+
+      <div class="panel limits-panel">
+        <ul>
+          <li>The data is synthetic. It is not real bank data and does not contain real customer behaviour.</li>
+          <li>The validation is circular. I planted the anomalies, so the metrics show recovery of planted patterns.</li>
+          <li>The rules are simple and fixed. They cannot learn new patterns.</li>
+          <li>Risk scores are illustrative rules-based scores, not validated fraud probabilities.</li>
+          <li>A flag is not proof of fraud. It means a person should review the transaction.</li>
+          <li>Normal large purchases and normal travel create false positives, especially for the high-amount and unusual-city rules.</li>
+          <li>The INR 5,000 floor causes false negatives for low-spend customers.</li>
+          <li>This is a portfolio demo on 10,000 rows, not a production fraud system.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>Built with Python, pandas, NumPy and SQLite. Static dashboard generated from the same four CSVs used by the Power BI guide.</p>
+      <p class="footer-warning">Synthetic data. Flags mean needs review, not proven fraud. Scores are illustrative, not probabilities.</p>
+    </div>
+  </footer>
+
+  <script src="vendor/chart.umd.min.js"></script>
+  <script src="vendor/papaparse.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

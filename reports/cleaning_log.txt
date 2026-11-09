@@ -1,0 +1,43 @@
+CLEANING LOG
+============================================================
+Rows in raw file: 10,038
+Exact duplicate rows removed (kept first): 30
+Rows dropped for missing critical fields: 8
+Rows out clean file: 10,000
+
+Null counts found in the raw file (before cleaning):
+  Transaction_ID: 0
+  Customer_ID: 3
+  Amount: 3
+  Transaction_Time: 2
+  Location: 30
+  Transaction_Type: 0
+  Merchant_Category: 40
+  Status: 0
+
+How each issue was handled:
+  Exact duplicates: removed, kept the first occurrence.
+  Customer_ID missing: row dropped.
+  Amount missing or not numeric: row dropped.
+  Transaction_Time missing or unparseable: row dropped.
+  Location missing after cleaning: filled with 'Unknown' (30 rows).
+  Merchant_Category missing after cleaning: filled with 'Unknown' (40 rows).
+  Amount values with commas or rupee signs converted to numbers: 10 rows.
+  ISO timestamps parsed: 9906.
+  Day-first timestamps parsed: 100.
+  Missing timestamps: 2.
+  Invalid timestamps: 0.
+  Text casing and extra spaces: standardised using fixed lookup lists.
+
+Critical missing details after duplicate removal:
+  Customer_ID: 3
+  Amount: 3
+  Transaction_Time: 2
+
+Rows out: 10,000
+Unique Transaction_ID values: 10,000
+Exact duplicate rows still present: 0
+
+Missing values are marked 'Unknown'. I did not guess them.
+This data is synthetic. Clean rows are inputs to a rules-based
+review score, not proof of fraud.

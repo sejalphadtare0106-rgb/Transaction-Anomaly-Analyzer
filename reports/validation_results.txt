@@ -1,0 +1,66 @@
+VALIDATION RESULTS
+========================================================================
+This validation is circular. I injected the anomalies, then checked
+whether my rules found them. It shows that the rules recover planted
+patterns. It does not prove real-world fraud detection performance.
+
+Scored transactions: 10,000
+Injected anomaly rows: 400 (4.00% of scored rows)
+Flagged rows: 705 (7.05% of scored rows)
+
+Overall: Is_Flagged vs Is_Injected_Anomaly
+  True positives:  375
+  False positives: 330
+  False negatives: 25
+  True negatives:  9,270
+  Precision: 0.5319 (53.19%)
+  Recall:    0.9375 (93.75%)
+  F1 score:  0.6787 (67.87%)
+
+Recall by injected type (combined rows count once for each base type):
+  High Amount: 75/83 detected (90.36%)
+  Burst: 111/111 detected (100.00%)
+  Unusual City: 62/77 detected (80.52%)
+  Night Timing: 63/65 detected (96.92%)
+  Repeated Failures: 102/102 detected (100.00%)
+
+Recall by exact ground-truth label:
+  Burst: 111/111 detected (100.00%)
+  Repeated Failures: 96/96 detected (100.00%)
+  Unusual City: 41/56 detected (73.21%)
+  High Amount: 46/54 detected (85.19%)
+  Night Timing: 43/45 detected (95.56%)
+  High Amount + Unusual City: 8/8 detected (100.00%)
+  Night Timing + High Amount: 6/6 detected (100.00%)
+  Repeated Failures + High Amount: 6/6 detected (100.00%)
+  High Amount + Night Timing: 5/5 detected (100.00%)
+  Night Timing + Unusual City: 5/5 detected (100.00%)
+  Unusual City + High Amount: 4/4 detected (100.00%)
+  Unusual City + Night Timing: 4/4 detected (100.00%)
+
+False positives by rule (a false positive can trigger more than one rule):
+  High Amount: 251
+  High Frequency: 3
+  Unusual City: 77
+  Night Timing: 0
+  Repeated Failures: 0
+
+False positives by exact rule combination (each row counted once):
+  High Amount: 250
+  Unusual City: 76
+  High Frequency: 3
+  High Amount + Unusual City: 1
+
+Risk level counts:
+  None: 9295
+  Low: 306
+  Medium: 389
+  High: 10
+
+Average Risk_Score of flagged rows: 28.28
+Total value: INR 35,766,771.47
+Flagged value: INR 8,530,549.33
+
+A flag means 'needs review', not proof of fraud.
+The Risk_Score is an illustrative rules-based score, not a
+validated fraud probability.

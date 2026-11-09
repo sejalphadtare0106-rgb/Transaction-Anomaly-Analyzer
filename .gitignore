@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.local
+.env*.local
+
+# Generated database files
+*.db
+
+# Power BI temporary files
+*.pbix~
+~$*.pbix
+*.pbix.tmp
+*.tmp
+
+# Vercel local project link
+.vercel/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Keep generated CSVs in the repository on purpose.
+# Reviewers should be able to open the dashboard data without running Python.

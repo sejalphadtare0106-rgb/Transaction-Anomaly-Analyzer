@@ -1,0 +1,152 @@
+{
+  "scored_rows": 10000,
+  "injected_rows": 400,
+  "flagged_rows": 705,
+  "true_positive": 375,
+  "false_positive": 330,
+  "false_negative": 25,
+  "true_negative": 9270,
+  "precision": 0.531915,
+  "recall": 0.9375,
+  "f1": 0.678733,
+  "base_type_rows": [
+    {
+      "Type": "High Amount",
+      "Injected_Rows": 83,
+      "Detected_Rows": 75,
+      "Recall": 0.9036144578313253
+    },
+    {
+      "Type": "Burst",
+      "Injected_Rows": 111,
+      "Detected_Rows": 111,
+      "Recall": 1.0
+    },
+    {
+      "Type": "Unusual City",
+      "Injected_Rows": 77,
+      "Detected_Rows": 62,
+      "Recall": 0.8051948051948052
+    },
+    {
+      "Type": "Night Timing",
+      "Injected_Rows": 65,
+      "Detected_Rows": 63,
+      "Recall": 0.9692307692307692
+    },
+    {
+      "Type": "Repeated Failures",
+      "Injected_Rows": 102,
+      "Detected_Rows": 102,
+      "Recall": 1.0
+    }
+  ],
+  "exact_type_rows": [
+    {
+      "Type": "Burst",
+      "Rows": 111,
+      "Detected": 111,
+      "Recall": 1.0
+    },
+    {
+      "Type": "Repeated Failures",
+      "Rows": 96,
+      "Detected": 96,
+      "Recall": 1.0
+    },
+    {
+      "Type": "Unusual City",
+      "Rows": 56,
+      "Detected": 41,
+      "Recall": 0.7321428571428571
+    },
+    {
+      "Type": "High Amount",
+      "Rows": 54,
+      "Detected": 46,
+      "Recall": 0.8518518518518519
+    },
+    {
+      "Type": "Night Timing",
+      "Rows": 45,
+      "Detected": 43,
+      "Recall": 0.9555555555555556
+    },
+    {
+      "Type": "High Amount + Unusual City",
+      "Rows": 8,
+      "Detected": 8,
+      "Recall": 1.0
+    },
+    {
+      "Type": "Night Timing + High Amount",
+      "Rows": 6,
+      "Detected": 6,
+      "Recall": 1.0
+    },
+    {
+      "Type": "Repeated Failures + High Amount",
+      "Rows": 6,
+      "Detected": 6,
+      "Recall": 1.0
+    },
+    {
+      "Type": "High Amount + Night Timing",
+      "Rows": 5,
+      "Detected": 5,
+      "Recall": 1.0
+    },
+    {
+      "Type": "Night Timing + Unusual City",
+      "Rows": 5,
+      "Detected": 5,
+      "Recall": 1.0
+    },
+    {
+      "Type": "Unusual City + High Amount",
+      "Rows": 4,
+      "Detected": 4,
+      "Recall": 1.0
+    },
+    {
+      "Type": "Unusual City + Night Timing",
+      "Rows": 4,
+      "Detected": 4,
+      "Recall": 1.0
+    }
+  ],
+  "fp_by_rule": {
+    "High Amount": 251,
+    "High Frequency": 3,
+    "Unusual City": 77,
+    "Night Timing": 0,
+    "Repeated Failures": 0
+  },
+  "fp_combinations": [
+    {
+      "Combination": "High Amount",
+      "Count": 250
+    },
+    {
+      "Combination": "Unusual City",
+      "Count": 76
+    },
+    {
+      "Combination": "High Frequency",
+      "Count": 3
+    },
+    {
+      "Combination": "High Amount + Unusual City",
+      "Count": 1
+    }
+  ],
+  "risk_counts": {
+    "None": 9295,
+    "Medium": 389,
+    "Low": 306,
+    "High": 10
+  },
+  "avg_flagged_score": 28.28,
+  "flagged_value": 8530549.33,
+  "total_value": 35766771.47
+}
